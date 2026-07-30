@@ -42,6 +42,17 @@ contoh gambar :
 - Biasanya dalam Distributed Architecture, setiap unit aplikasi disebut Service
 - Pengembangan Distributed Architecture memang lebih kompleks dibandingkan dengan Monolithic Architecture, namun menawarkan keuntungan seperti toleransi kesalahan (fault tolerance), misal ketika ada satu Service gagal, Service lain masih bisa berjalan dengan normal
 
+contoh gambar :
+(DISTRIBUTED)[DISTRIBUTED.excalidraw]
+
+## Pilih yang Mana?
+- Pada saat pembuatan aplikasi, kadang kita bingung menentukan harus menggunakan arsitektur Monolithic atau Distributed
+- Jika aplikasi yang akan kita buat sederhana atau masih belum jelas secara business requirement, sangat disarankan menggunakan Monolithic, karena mudah untuk dibuat
+- Namun jika aplikasi yang akan kita buat sudah sangat jelas, dan juga memang membutuhkan scalability yang baik, termasuk fault tolerance yang baik, maka kita bisa gunakan arsitektur Distributed
+
+* Note:
+- Team sedikit pakai monolithic
+- Team sudah banyak/besar pakai distributed
 
 
 
