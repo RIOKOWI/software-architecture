@@ -28,10 +28,20 @@
 - Distributed adalah multiple deployment units, biasanya terdiri dari beberapa aplikasi
 
 
-# Monolithic Architectures
+## Monolithic Architectures
 - Monolithic Architecture secara umum sangat sederhana dibandingkan Distributed Architecture
 - Desain aplikasi Monolithic lebih sederhana dan mudah diimplementasikan
 - Aplikasi yang menggunakan Monolithic Architecture akan sangat cepat dibuat dan didistribusikan
+
+contoh gambar :
+(MONOLITHIC)[MONOLITHIC.excalidraw.png]
+
+
+## Distributed Architecture
+- Distributed Architecture biasanya terdiri dari beberapa aplikasi yang bekerja bersamaan, berbeda dengan aplikasi Monolithic yang hanya satu aplikasi
+- Biasanya dalam Distributed Architecture, setiap unit aplikasi disebut Service
+- Pengembangan Distributed Architecture memang lebih kompleks dibandingkan dengan Monolithic Architecture, namun menawarkan keuntungan seperti toleransi kesalahan (fault tolerance), misal ketika ada satu Service gagal, Service lain masih bisa berjalan dengan normal
+
 
 
 
