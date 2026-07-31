@@ -62,6 +62,17 @@ contoh gambar :
 - Software architecture baik itu monolithic atau distributed, secara partisi bisa dibagi berdasarkan teknis atau domain
 - Partisi secara struktur bisa digunakan di monolithic atau distributed
 
+## Technical Partitioning
+- Arsitektur Technical Partitioning membagi komponen-komponen dalam system atau aplikasi secara teknis
+- Contoh arsitektur klasik yang sering digunakan adalah Layered (N-Tier) Architecture
+- Dalam Technical Partitioning, komponen dalam system dikelompokan secara teknis, misal :
+- Presentation Layer merupakan komponen yang menangani user interface
+- Business Layer, merupakan komponen yang menangani logika dan aturan bisnis
+- Persistence Layer, merupakan komponen yang menangani interaksi dengan sistem basis data
+- Database Layer, merupakan komponen untuk menyimpan data
+
+* note : layer layer di atas tidak baku, boleh aja tambah layer lagi seperti service layer, api layer, dll
+
 
 
 
