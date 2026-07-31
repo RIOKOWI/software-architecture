@@ -82,5 +82,10 @@ contoh gambar :
 - Artinya semua Technical Partitioning seperti Presentation, Business Logic, Persistence, digabung dalam per domain system
 - Partisi system berdasarkan Domain, populer sejak dikenalkan dalam buku berjudul “Domain Driven Design” karya Eric Evans.
 
+contoh gambar :
+[DOMAIN PARTIONING](DOMAIN-PARTIONING.excalidraw.png)
+
+
+
 
 
