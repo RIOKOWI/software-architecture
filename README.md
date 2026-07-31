@@ -55,4 +55,13 @@ contoh gambar :
 - Team sudah banyak/besar pakai distributed
 
 
+# Architecture Partitioning
+
+## Architecture Partitioning
+- Selain dilihat secara klasifikasi monolithic atau distributed, software architecture juga bisa dilihat secara struktur partisinya
+- Software architecture baik itu monolithic atau distributed, secara partisi bisa dibagi berdasarkan teknis atau domain
+- Partisi secara struktur bisa digunakan di monolithic atau distributed
+
+
+
 
