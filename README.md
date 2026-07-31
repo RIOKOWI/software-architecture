@@ -73,6 +73,14 @@ contoh gambar :
 
 * note : layer layer di atas tidak baku, boleh aja tambah layer lagi seperti service layer, api layer, dll
 
+contoh gambar :
+[TECHNICAL PARTIONING](TECHNICAL-PARTIONING.excalidraw.png)
+
+
+## Domain Partitioning
+- Berbeda dengan Technical Partitioning, dalam Domain Partitioning, pembagian struktur komponen dalam system dikelompokan berdasarkan Domain / Fitur / Departemen secara bisnis nya
+- Artinya semua Technical Partitioning seperti Presentation, Business Logic, Persistence, digabung dalam per domain system
+- Partisi system berdasarkan Domain, populer sejak dikenalkan dalam buku berjudul “Domain Driven Design” karya Eric Evans.
 
 
 
