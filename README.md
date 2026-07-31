@@ -85,6 +85,14 @@ contoh gambar :
 contoh gambar :
 [DOMAIN PARTIONING](DOMAIN-PARTIONING.excalidraw.png)
 
+## Pilih yang Mana?
+- Technical ataupun Domain Partitioning memiliki kelebihan dan kekurangan, namun secara pribadi saya rekomendasikan gunakan :
+- Technical Partitioning ketika aplikasi yang akan dibuat sederhana dan tidak kompleks. Selain itu ketika jumlah anggota tim pengembang tidak terlalu banyak.
+- Domain Partitioning ketika aplikasi yang akan dibuat kompleks dan fitur aplikasi sangat banyak. Dan sangat cocok ketika anggota tim pengembang banyak pembagian tim berdasarkan jenis domain nya.
+
+inti :
+- solo dev (project level mid-high) pakai technical partiotioning
+- team besar (project level high) pakai domain partiotioning
 
 
 
