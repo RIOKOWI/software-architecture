@@ -124,6 +124,14 @@ contoh gambar :
 - Artinya, misal ketika Presentation Layer ingin mengambil data Product, Presentation Layer akan mengirim request ke Business Layer, lalu akan mengambil data ke Persistence Layer dan baru masuk ke Database Layer
 - Tidak direkomendasikan untuk langsung mengakses dari Presentation Layer langsung ke Database Layer misalnya
 
+## Contoh
+- Setelah tahu cara kerja Layered Architecture, maka kita bisa dengan mudah menggambarkan alur yang harus dibuat ketika membuat aplikasi
+- Misal kita ingin menampilkan halaman Product, namu di dalam halaman Product kita juga ingin menampilkan data Seller nya
+- Maka kita bisa buat alur aplikasi seperti pada diagram selanjutnya
+
+[FLOW-LAYERED-ARCH](FLOW-LAYERED-ARCH.excalidraw.png)
+
+
 
 
 
