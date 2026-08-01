@@ -111,7 +111,13 @@ inti :
 contoh gambar :
 [LAYERED-ARCHITECTURE](LAYERED-ARCHITECTURE.excalidraw.png)
 
+## Tugas Tiap Layer
 
+- Setiap layer di Layered Architecture memiliki tugas masing-masing
+- Presentation Layer bertanggung jawab menangani semua user interface 
+- Business Layer bertanggung jawab mengeksekusi permintaan logika atau aturan bisnis yang sesuai permintaan
+- Persistence Layer bertanggung jawab untuk berinteraksi dengan database untuk melakukan pengolaha data di database
+- Database Layer bertanggung jawab untuk menyimpan semua data aplikasi
 
 
 
