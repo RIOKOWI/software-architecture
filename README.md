@@ -91,9 +91,15 @@ contoh gambar :
 - Domain Partitioning ketika aplikasi yang akan dibuat kompleks dan fitur aplikasi sangat banyak. Dan sangat cocok ketika anggota tim pengembang banyak pembagian tim berdasarkan jenis domain nya.
 
 inti :
-- solo dev (project level mid-high) pakai technical partiotioning
+- solo dev (project level low-mid) pakai technical partiotioning
 - team besar (project level high) pakai domain partiotioning
 
 
+# Layered Architecture
 
+## Layered Architecture
+
+- Layered Architecture dikenal juga dengan N-Tier Architecture
+- Arsitektur ini adalah salah satu standard arsitektur untuk kebanyakan aplikasi, dimana aplikasi dibagi secara teknis
+- Karena arsitektur ini sangat banyak diketaui oleh pengembang perangkat lunak, hal ini menjadikan arsitektur ini menjadi salah satu pilihan yang banyak digunakan
 
