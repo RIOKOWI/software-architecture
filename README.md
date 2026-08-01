@@ -132,6 +132,11 @@ contoh gambar :
 [FLOW-LAYERED-ARCH](FLOW-LAYERED-ARCH.excalidraw.png)
 
 
+## Pertimbangan
+
+- Layered Architecture adalah salah satu arsitektur yang banyak dimengerti dan digunakan
+- Gunakan Layered Architecture jika kita masih bingung ingin menggunakan arsitektur apa, karena ini adalah arsitektur yang bagus untuk memulai aplikasi
+- Namun jangan gunakan Layered Architecture ketika pembagian tim di perusahaan sudah berdasarkan domain, lebih cocok menggunakan Distributed Architecture yang akan kita bahas di materi-materi selanjutnya
 
 
 
