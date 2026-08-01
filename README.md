@@ -119,5 +119,11 @@ contoh gambar :
 - Persistence Layer bertanggung jawab untuk berinteraksi dengan database untuk melakukan pengolaha data di database
 - Database Layer bertanggung jawab untuk menyimpan semua data aplikasi
 
+## Layers of Isolation
+- Dalam Layered Architecture, tiap Layer akan terisolasi, dan arah komunikasi hanya dilakukan dengan layer dibawah atau diatasnya
+- Artinya, misal ketika Presentation Layer ingin mengambil data Product, Presentation Layer akan mengirim request ke Business Layer, lalu akan mengambil data ke Persistence Layer dan baru masuk ke Database Layer
+- Tidak direkomendasikan untuk langsung mengakses dari Presentation Layer langsung ke Database Layer misalnya
+
+
 
 
