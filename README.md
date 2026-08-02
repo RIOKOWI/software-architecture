@@ -166,3 +166,11 @@ contoh gambar :
 
 contoh gambar :
 [MVC-LAYERED](MVC-LAYERED.excalidraw.png)
+
+## Pertimbangan
+
+- MVC adalah pilihan utama ketika kita ingin membuat aplikasi Web.
+- Banyak sekali web framework yang sudah secara otomatis menggunakan arsitektur ini, seperti Laravel, NestJS, Rails, Django, dan lain-lain
+- Namun ketika kita membuat RESTful API misalnya, kita tidak wajib mengikuti aturan MVC, karena biasanya kita tidak memerlukan layer View. Pada kasus seperti ini, kita bisa saja menggabungkan arsitektur MVC ini dengan Layered Architecture
+
+* noted : kalo mau bikin RESTful API kita tidak membutuhkan layer view
