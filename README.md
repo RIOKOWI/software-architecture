@@ -191,3 +191,6 @@ contoh gambar :
 - Hexagonal Architecture sebenarnya dikenalkan dengan nama Port & Adapter Architecture, namun saat ini lebih populer dengan nama Hexagonal Architecture
 - Port merupakan technology-agnostic yang merupakan sebuah OOP (Object Oriented Programming) Interface, yang digunakan oleh kode aplikasi untuk berkomunikasi dengan pihak lain
 - Adapter merupakan bagian yang berinteraksi langsung melalui Port, dan menggunakan teknologi yang sudah ditentukan
+
+contoh gambar :
+[HEXAGONAL-DETAIL-ARCH](HEXAGONAL-DETAIL-ARCH.excalidraw.png)
