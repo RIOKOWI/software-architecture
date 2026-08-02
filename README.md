@@ -150,3 +150,13 @@ contoh gambar :
 contoh gambar :
 [MVC-ARCH](MVC-ARCH.excalidraw.png)
 
+## Tugas Tiap Layer
+
+- Dalam MVC, setiap layer memiliki tugas masing-masing
+- Controller adalah layer yang bertanggung jawab untuk menerima request dan mengekseksi logika dan aturan bisnis yang terjadi di aplikasi
+- Model merupakan layer yang bertanggung jawab sebagai representasi data di database dan juga berinteraksi ke database
+- View merupakan layer yang berisi template untuk tampilan halaman web
+- Database merupakan layer untuk menyimpan data aplikasi
+
+
+* note : karna mvc ini hampir mirip seperti layered architecture jadi nanti saat web nya sudah besar kalau mau controller nya tidak handle banyak code bisa tambah business/service layer, itu sah sah saja.
