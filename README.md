@@ -139,4 +139,11 @@ contoh gambar :
 - Namun jangan gunakan Layered Architecture ketika pembagian tim di perusahaan sudah berdasarkan domain, lebih cocok menggunakan Distributed Architecture yang akan kita bahas di materi-materi selanjutnya
 
 
+# Model-View-Controller Architecture
+
+## Model-View-Controller Architecture
+
+- Model View Controller (MVC) Architecture merupakan salah satu arsitektur yang sangat populer ketika membuat Web
+- MVC mirip dengan Layered Architecture, hanya saja layer nya berbeda
+- dalam MVC pusat interaksi antar layer biasanya dilakukan oleh Controller
 
