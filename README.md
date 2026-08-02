@@ -159,4 +159,10 @@ contoh gambar :
 - Database merupakan layer untuk menyimpan data aplikasi
 
 
-* note : karna mvc ini hampir mirip seperti layered architecture jadi nanti saat web nya sudah besar kalau mau controller nya tidak handle banyak code bisa tambah business/service layer, itu sah sah saja.
+* note : kareena mvc ini mirip seperti layered architecture jadi nanti saat web nya sudah besar kalau mau controller nya tidak handle banyak code bisa tambah business/service layer, itu sah sah saja.
+
+## Contoh
+- Misal kita memiliki web, dimana terdapat satu halaman web yang perlu untuk menampilkan data wishlist. Pada halaman itu, selain data wishlist, kita juga harus menampilkan detail product yang terdapat di wishlist tersebut
+
+contoh gambar :
+[MVC-LAYERED](MVC-LAYERED.excalidraw.png)
