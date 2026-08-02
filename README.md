@@ -205,3 +205,13 @@ contoh gambar :
 
 contoh gambar :
 [DETAILING-HEXAGONAL](DETAILING-HEXAGONAL.excalidraw.png)
+
+
+## Clean Architecture
+
+- Saat ini, terkenal juga arsitektur dengan nama Clean Architecture
+- Jangan bingung jika harus memilih Hexagonal Architecture atau Clean Architecture
+- Sebenarnya Clean Architecture tidak berbeda jauh dengan Hexagonal Architecture, bahkan penulis buku Clean Architecture pun memang sudah menjelaskan bahwa salah satu referensi Clean Architecture adalah dari Hexagonal Architecture
+- https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html 
+
+* note : jangan bingung, salah satu referensi clean arch itu dari hexagonal arch
