@@ -174,3 +174,11 @@ contoh gambar :
 - Namun ketika kita membuat RESTful API misalnya, kita tidak wajib mengikuti aturan MVC, karena biasanya kita tidak memerlukan layer View. Pada kasus seperti ini, kita bisa saja menggabungkan arsitektur MVC ini dengan Layered Architecture
 
 * noted : kalo mau bikin RESTful API kita tidak membutuhkan layer view
+
+# Hexagonal Architecture
+
+## Hexagonal Architecture
+- Salah satu masalah ketika menggunakan Layered Architecture adalah, perubahan jenis teknologi yang digunakan, akan menyulitkan pengembangan
+- Contoh ketika kita harus mengganti teknologi database yang digunakan, secara otomatis akan terjadi perombakan besar-besaran pada kode program Persistence Layer dan Database Layer, yang mungkin bisa menyebabkan perombakan juga pada Business Layer
+- Hexagonal Architecture merupakan arsitektur yang dikembangkan dari Layered Architecture, namun lebih baik ketika menangani perubahan teknologi yang terjadi
+- Hexagonal Architecture juga dikenal dengan Port & Adapter Architecture
