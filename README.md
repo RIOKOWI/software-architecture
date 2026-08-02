@@ -147,3 +147,6 @@ contoh gambar :
 - MVC mirip dengan Layered Architecture, hanya saja layer nya berbeda
 - dalam MVC pusat interaksi antar layer biasanya dilakukan oleh Controller
 
+contoh gambar :
+[MVC-ARCH](MVC-ARCH.excalidraw.png)
+
