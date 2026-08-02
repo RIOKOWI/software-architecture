@@ -202,3 +202,6 @@ contoh gambar :
 - Selain itu, di dalam Application Layer, terdapat Domain Layer, yang berisikan representasi data domain aplikasi
 - Bagian Driving, biasanya disebut User Interface / Transport Layer / Gateway, yaitu sumber request masuk ke aplikasi
 - Bagian Driven, biasanya disebut Infrastructure / Data Source / External Interfaces, yaitu target data keluar dari aplikasi
+
+contoh gambar :
+[DETAILING-HEXAGONAL](DETAILING-HEXAGONAL.excalidraw.png)
