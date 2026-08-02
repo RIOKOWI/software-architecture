@@ -182,3 +182,6 @@ contoh gambar :
 - Contoh ketika kita harus mengganti teknologi database yang digunakan, secara otomatis akan terjadi perombakan besar-besaran pada kode program Persistence Layer dan Database Layer, yang mungkin bisa menyebabkan perombakan juga pada Business Layer
 - Hexagonal Architecture merupakan arsitektur yang dikembangkan dari Layered Architecture, namun lebih baik ketika menangani perubahan teknologi yang terjadi
 - Hexagonal Architecture juga dikenal dengan Port & Adapter Architecture
+
+contoh gambar : 
+[HEXAGONAL-ARCH](HEXAGONAL-ARCH.excalidraw.png)
