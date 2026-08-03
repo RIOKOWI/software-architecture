@@ -227,6 +227,41 @@ contoh gambar :
 
 * note : pengembangan hexagonal arch tidak semudah layered architecture
 
+# Microkernel Architecture
+
+
+## Microkernel Architecture
+
+- Microkernel Architecture sangat flexible dan extensible, sehingga pengembang bisa dengan mudah menambah fitur pada aplikasi dalam bentuk extension atau plug-in, tanpa takut menggangu fungsionalitas dari aplikasinya itu sendiri
+- Oleh karena itu, Microkernel Architecture juga sering disebut sebagai Plug-in Architecture
+- Microkernel Architecture sangat banyak digunakan pada aplikasi berbasis desktop biasanya, contoh seperti Visual Studio, Eclipse, dan lain-lain, dimana ada banyak sekali extension atau plug-in yang tersedia untuk aplikasi tersebut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # SLIDE
 `https://docs.google.com/presentation/d/1eaaTjJLmRcSMQK9VfT3zHuEJp7LXL-uJVuFw4e6ZIcM/edit`
