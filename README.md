@@ -247,6 +247,11 @@ contoh gambar :
 
 * note : intinya pada arch ini logic ada di plugin component nya bukan di core system nya
 
+## Pertimbangan
+
+- Microkernel Architecture sangat populer digunakan ketika membuat aplikasi Desktop berbasis plugin, seperti Visual Studio, Eclipse, IntelliJ IDEA, bahkan seperti Browser
+- Gunakan Microkernel Architecture jika memang kita ingin membuat aplikasi yang berbasis Plugin
+- Salah satu keunggulan Microkernel Architecture adalah, orang lain bisa berkontribusi membuat Plugin untuk aplikasi kita
 
 
 
