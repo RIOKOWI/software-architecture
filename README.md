@@ -215,3 +215,12 @@ contoh gambar :
 - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html 
 
 * note : jangan bingung, salah satu referensi clean arch itu dari hexagonal arch
+
+
+## Contoh
+- Misal kita memiliki aplikasi Web toko online, dimana kita akan membuat halaman pembayaran
+- Dimana saat melakukan pembayaran, data pembayaran selain disimpan di database, akan dikirim ke Payment Gateway
+
+
+contoh gambar :
+[HEXAGONAL-ARCH-EXAMPLE](HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
