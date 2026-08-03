@@ -1,7 +1,3 @@
-# SLIDE
-`https://docs.google.com/presentation/d/1eaaTjJLmRcSMQK9VfT3zHuEJp7LXL-uJVuFw4e6ZIcM/edit`
-
-
 # Pengenalan Software Architecture Patterns
 
 ## Pendahuluan
@@ -221,6 +217,16 @@ contoh gambar :
 - Misal kita memiliki aplikasi Web toko online, dimana kita akan membuat halaman pembayaran
 - Dimana saat melakukan pembayaran, data pembayaran selain disimpan di database, akan dikirim ke Payment Gateway
 
-
 contoh gambar :
 [HEXAGONAL-ARCH-EXAMPLE](HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
+
+## Pertimbangan
+- Hexagonal Architecture merupakan salah satu arsitektur yang bagus digunakan ketika kita akan membuat aplikasi yang kompleks dan agar aplikasinya technology agnostic sehingga mudah diganti-ganti
+- Namun pengembangan Hexagonal Architecture tidaklah semudah Layered Architecture, sehingga jika pengembang belum familiar dengan Hexagonal Architecture, maka bisa terkendala ketika proses pengem
+
+
+* note : pengembangan hexagonal arch tidak semudah layered architecture
+
+
+# SLIDE
+`https://docs.google.com/presentation/d/1eaaTjJLmRcSMQK9VfT3zHuEJp7LXL-uJVuFw4e6ZIcM/edit`
