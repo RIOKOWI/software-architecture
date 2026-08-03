@@ -236,6 +236,9 @@ contoh gambar :
 - Oleh karena itu, Microkernel Architecture juga sering disebut sebagai Plug-in Architecture
 - Microkernel Architecture sangat banyak digunakan pada aplikasi berbasis desktop biasanya, contoh seperti Visual Studio, Eclipse, dan lain-lain, dimana ada banyak sekali extension atau plug-in yang tersedia untuk aplikasi tersebut
 
+contoh gambar :
+[MICROKERNEL-ARCH.excalidraw](MICROKERNEL-ARCH.excalidraw.png)
+
 
 
 
