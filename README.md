@@ -240,8 +240,12 @@ contoh gambar :
 [MICROKERNEL-ARCH.excalidraw](MICROKERNEL-ARCH.excalidraw.png)
 
 
+## Topology
+- Dalam Microkernel Architecture, hanya terdapat dua layer, Core System dan juga Plugin Modules
+- Logic aplikasi di Microkernel Architecture biasanya di tempatkan di Plugin, maka dari itu arsitektur ini terlihat seperti Hexagonal Architecture, tetapi sebenarnya bukan
+- Dalam Hexagonal Architecture, logic aplikasi ditempatkan di aplikasi, sedangkan di Microkernel Architecture, detail logic aplikasi berada di tiap Plugin masing-masing
 
-
+* note : intinya pada arch ini logic ada di plugin component nya bukan di core system nya
 
 
 
