@@ -335,7 +335,10 @@ contoh gambar :
 contoh gambar :
 (MASTER MASTER ARCH)[Arch/MASTER-MASTER-ARCH.excalidraw.png]
 
+## Replication
 
+- Yang perlu diingat dalam Master-Slave / Master-Master Architecture, biasanya data di aplikasi selalu di replikasi/duplikasi ke semua Slave / Master
+- Hal ini agar data selalu sama, sehingga pekerjaan yang dikerjakan oleh semua aplikasi Slave/Master akan selalu konsisten
 
 
 
