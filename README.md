@@ -291,7 +291,9 @@ contoh gambar :
 - Client-Server Architecture adalah arsitektur yang saat ini sangat banyak digunakan, bahkan mungkin secara tidak sadar, kita sudah menggunakan arsitektur ini
 - Ketika kita membuat aplikasi Mobile lalu terkoneksi ke RESTful API, sebenarnya itu adalah Client-Server Architecture
 
-
+## Pertimbangan
+- Saat kita ingin membuat aplikasi, yang ingin memisahkan aplikasi Client, atau bahkah membuat banyak jenis aplikasi Client, maka arsitektur Client-Server sangat cocok digunakan
+- Namun jika kita ingin membuat aplikasi yang standalone, tidak butuh menyimpan data di Server, maka kita tidak butuh membuat aplikasi Client-Server, contoh seperti aplikasi editor untuk Photo, Video dan sejenis nya
 
 
 
