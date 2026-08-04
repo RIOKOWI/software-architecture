@@ -444,7 +444,21 @@ contoh gambar :
 - Microservice Architecture biasanya digunakan di perusahaan yang sudah besar dengan tim pengembang yang banyak, hal ini dikarenakan arsitektur ini menuntut banyak sekali pekerjaan selain pekerjaan membuat aplikasi, seperti infrastruktur, automation, deployment dan lain-lain
 - Jangan gunakan arsitektur ini jika tim masih kecil, kita bisa mulai dengan Monolith Architecture dan Layered Architecture, jika sudah waktunya membutuhkan scaling tim secara cepat, kita baru bisa mempertimbangkan penggunaan Microservices Architecture
 
-* note : tim kecil == pakai monolith || tim besar == micro services
+* note : tim kecil == pakai monolith || tim besar == pakai micro services tetapi jangan terburu buru
+
+# Event-Driven Architecture
+
+## Masalah Microservices Architecture
+- Dengan meningkatnya penggunaan Microservices Architecture, akhirnya terdapat salah satu masalah yang sering dialami pengguna arsitektur tersebut, yaitu ketergantungan antar Service
+- Contoh pada kasus sebelumnya misalnya, ketika Seller Service bermasalah, misal mati, maka kita tidak bisa melihat data Product, hal ini karena Product Service butuh memanggil Seller Service ketika ingin menampilkan data Product
+
+
+
+
+
+
+
+
 
 
 
