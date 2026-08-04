@@ -415,6 +415,11 @@ contoh gambar :
 (BOUNDED CONTEXT)[Arch/BOUNDED-CONTEXT.excalidraw.png]
 
 
+## Komunikasi Antar Service
+- Dengan adanya Bounded Context, artinya tidak ada yang boleh mengakses database Seller secara langsung dari Service lain kecuali Seller Service
+- Jika ada Service lain yang membutuhkan data Seller, maka Service lain tersebut harus meminta data Seller ke Seller Service, dengan cara komunikasi yang sudah ditentukan, misal RESTful API (Client-Server Architecture)
+
+
 
 
 
