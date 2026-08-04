@@ -345,10 +345,44 @@ contoh gambar :
 - Hampir kebanyakan aplikasi sistem basis data seperti MySQL, PostgreSQL, MongoDB mengimplementasikan arsitektur Master-Slave Architecture
 - Atau seperti aplikasi sistem basis data Elasticsearch dan Cassandra, yang menggunakan Master-Master Architecture
 
-
 ## Pertimbangan
 - Gunakan arsitektur Master-Slave / Master-Master ketika kita ingin membuat aplikasi yang statefull (menyimpan data)
 - Jika kita membuat aplikasi yang stateless (tidak menyimpan data), maka disarankan tidak menggunakan arsitektur ini
+
+
+# Peer-to-Peer Architecture
+- Peer-to-Peer Architecture merupakan arsitektur yang hampir mirip dengan Client-Server Architecture
+- Hanya saja, dalam Peer-to-Peer, semua aplikasi bisa menjadi Client dan juga Server secara berbarengan
+- Biasanya logika aplikasi akan terpusat di aplikasi Server, pada Peer-to-Peer, logika aplikasi tidak terpusat di satu aplikasi, semua aplikasi bisa menjadi Server sekaligus Client
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
