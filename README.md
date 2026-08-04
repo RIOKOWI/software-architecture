@@ -317,6 +317,12 @@ contoh gambar :
 - Pada diagram, kita hanya membuat 3 aplikasi Slave, namun kenyataanya, tidak ada batasan jumlah aplikasi Slave
 
 
+## Fault Torelance
+
+- Salah satu keunggukan Master-Slave Architecture adalah, Fault Torelance, dimana ketika misal terjadi kesalahan yang menyebabkan salah satu aplikasi Slave mati, maka pekerjaan masih bisa dikerjaan oleh aplikasi Slave lain
+- Begitu juga ketika terjadi masalah yang menyebabkan aplikasi Master mati, maka secara otomatis salah satu Slave akan dipromosikan menjadi Master baru
+
+
 
 
 
