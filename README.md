@@ -384,6 +384,16 @@ contoh gambar :
 - Kekurangannya adalah, karena kita tidak bisa menjadi kualitas resource di tiap Peer, jadi besar kemungkinan kualitas dan kecepatan aplikasi tidak bisa dijaga dengan baik, terutama jika Peer berjalan di hardware dengan resource yang kurang
 
 
+# Microservices Architecture
+
+## Microservices Architecture
+
+- Microservices Architecture adalah jenis arsitektur yang saat sedang banyak sekali digunakan oleh banyak orang. Namun arsitektur ini bukanlah jenis arsitektur yang sederhana, ini adalah jenis arsitektur yang kompleks.
+- Pada Microservices Architectures, system akan dibuat dalam jumlah aplikasi-aplikasi kecil atau disebut Service, dan digunakan untuk menyelesaikan tugas spesifik tertentu saja.
+- Selain itu pada arsitektur ini, tiap Service akan di deploy dan dijalankan secara mandiri
+- Pada arsitektur ini, tidak aneh jika sebuah system memiliki ratusan bahkan ribuan Service mandiri, hal ini karena tiap Service memang memiliki tugas masing-masing
+
+
 
 
 
