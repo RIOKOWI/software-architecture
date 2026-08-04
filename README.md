@@ -510,6 +510,10 @@ contoh gambar :
 [PIPELINE CLOUD FUNCTION](Arch/PIPELINE-CLOUD-FUNCTION.excalidraw.png)
 
 
+## Data Pipeline
+- Pipeline Architecture juga sering digunakan dalam melakukan pengolahan data, atau sering dikenal dengan nama Data Pipeline
+- Dalam Data Pipeline, biasanya terdapat Source (sumber data), Destination (tujuan akhir data), dan juga Processing (pengolahan data)
+
 
 
 
