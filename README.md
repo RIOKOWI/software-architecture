@@ -378,6 +378,10 @@ contoh gambar :
 - Selain itu, Peer-to-Peer juga sering digunakan dalam Cryptocurrency dimana semua data terdistribusi di semua aplikasi Peer untuk menjaga data tetap aman karea untuk mengubah data, kita harus mengubah seluruh data di semua Peer, dan itu sangat sulit untuk dilakukan
 
 
+## Pertimbangan
+- Peer-to-Peer Architecture mungkin terlihat sangat menarik, namun ini adalah jenis arsitektur yang jarang sekali digunakan, kecuali pada jenis aplikasi yang membutuhkan logika yang tidak terpusat
+- Peer-to-Peer Architecture juga merupakan arsitektur yang sangan scalable, karena sulit untuk terjadi kegagalan sistem karena semua logic terdistribusi di semua Peer
+- Kekurangannya adalah, karena kita tidak bisa menjadi kualitas resource di tiap Peer, jadi besar kemungkinan kualitas dan kecepatan aplikasi tidak bisa dijaga dengan baik, terutama jika Peer berjalan di hardware dengan resource yang kurang
 
 
 
