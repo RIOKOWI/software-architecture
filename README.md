@@ -393,7 +393,8 @@ contoh gambar :
 - Selain itu pada arsitektur ini, tiap Service akan di deploy dan dijalankan secara mandiri
 - Pada arsitektur ini, tidak aneh jika sebuah system memiliki ratusan bahkan ribuan Service mandiri, hal ini karena tiap Service memang memiliki tugas masing-masing
 
-
+contoh gambar :
+(MICROSERVICE)[Arch/MICROSERVICE-ARCH.excalidraw.png]
 
 
 
