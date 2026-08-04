@@ -410,7 +410,9 @@ contoh gambar :
 - Contoh misal ketika kita memiliki Service yang digunakan untuk melakukan management data Seller, maka Seller Service yang hanya boleh melakukan management data Seller tersebut
 - Konsep ini, disebut dengan Bounded Context, yang dikenalkan oleh Eric Evans pada buku Domain-Driven Design
 
+contoh gambar :
 
+(BOUNDED CONTEXT)[Arch/BOUNDED-CONTEXT.excalidraw.png]
 
 
 
