@@ -15,6 +15,7 @@
 - Tiap Architecture Pattern memiliki karakteristik seperti mudah dikembangkan, scalable dan mudah di-maintain
 - Harapannya, dengan menggunakan Architecture Pattern yang tepat saat pembuatan perangkat lunak, hasil perangkat lunak yang kita buat akan mudah dikembangkan kedepannya
 
+---
 
 # Architecture Classification
 
@@ -50,6 +51,7 @@ contoh gambar :
 - Team sedikit pakai monolithic
 - Team sudah banyak/besar pakai distributed
 
+---
 
 # Architecture Partitioning
 
@@ -90,6 +92,7 @@ inti :
 - solo dev (project level low-mid) pakai technical partiotioning
 - team besar (project level high) pakai domain partiotioning
 
+---
 
 # Layered Architecture
 
@@ -171,6 +174,8 @@ contoh gambar :
 
 * noted : kalo mau bikin RESTful API kita tidak membutuhkan layer view
 
+---
+
 # Hexagonal Architecture
 
 ## Hexagonal Architecture
@@ -227,6 +232,8 @@ contoh gambar :
 
 * note : pengembangan hexagonal arch tidak semudah layered architecture
 
+---
+
 # Microkernel Architecture
 
 
@@ -253,10 +260,18 @@ contoh gambar :
 - Gunakan Microkernel Architecture jika memang kita ingin membuat aplikasi yang berbasis Plugin
 - Salah satu keunggulan Microkernel Architecture adalah, orang lain bisa berkontribusi membuat Plugin untuk aplikasi kita
 
+---
+
+# Client-Server Architecture
+
+## Client-Server Architecture
+
+- Client-Server Architecture adalah salah satu Distributed System Architecture yang banyak dikenal dan digunakan
+- Arsitektur ini sangat sederhana, dimana terdapat aplikasi Client dan Server yang saling berinteraksi
+- Biasanya komunikasi antara Client dan Server menggunakan jaringan TCP/IP, walaupun tidak tertutup kemungkinan menggunakan jaringan lain seperti UDP
 
 
-
-
+* note : arch ini masuk kategori distributed arch
 
 
 
