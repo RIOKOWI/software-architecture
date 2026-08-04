@@ -462,7 +462,12 @@ contoh gambar :
 contoh gambar :
 (EVENT DRIVEN)[Arch/EVENT-DRIVEN-ARCH.excalidraw.png]
 
+## Duplicate Data
+- Seperti yang sudah kita tahu, dalam Microservices Architecture terdapat aturan Bounded Context, dimana data hanya bisa diakses oleh Service itu sendiri
+- Pada kasus Event-Driven Architecture, karena kita tidak akan memanggil secara Sync ke Service Lain (seperti menggunakan API Call), maka biasanya Service akan meng-consume event data dan men-duplicate data yang dibutuhkan di database Service itu
+- Pada kasus sebelumnya, contohnya Product Service akan meng-consume data Seller Event, lalu menyimpan data Seller ke database Product sebagai data duplicate
 
+* note: jika add data cuma untuk id & nama seller yang di duplikat ya cuma 2 itu aja
 
 
 
