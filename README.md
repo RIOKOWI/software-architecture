@@ -524,7 +524,8 @@ contoh gambar :
 - Dimulai dari setiap data kunjungan ke website kita, kita akan kirim sebagai event ke Message Broker, lalu kita akan buat filter, dari filter untuk mendeteksi ipaddress, filter untuk mendapatkan negara berdasarkan ip, dan filter untuk melakukan grouping berdasarkan negara
 
 
-
+contoh gambar :
+[PIPELINE STUDY CASE](Arch/PIPELINE-STUDY-CASE.excalidraw.png)
 
 
 
