@@ -372,6 +372,10 @@ contoh gambar :
 - Sedangkan pada Master-Master, tiap Master adalah Server, biasanya Client adalah aplikasi yang terpisah dan terkoneksi ke Master-Master dengan arsitektur Client-Server
 
 
+## Contoh
+
+- Peer-to-Peer banyak sekali digunakan untuk aplikasi berbagi file seperti Torrent misalnya, dimana setiap orang bisa berbagi file, sekaligus meminta file ke Peer lain di dalam jaringan Torrent nya
+- Selain itu, Peer-to-Peer juga sering digunakan dalam Cryptocurrency dimana semua data terdistribusi di semua aplikasi Peer untuk menjaga data tetap aman karea untuk mengubah data, kita harus mengubah seluruh data di semua Peer, dan itu sangat sulit untuk dilakukan
 
 
 
