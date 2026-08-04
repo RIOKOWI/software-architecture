@@ -403,6 +403,13 @@ contoh gambar :
 - Karena tiap Service memiliki tugas masing-masing, maka tidak jarang database yang digunakanpun bisa berbeda-beda, hal ini karena biasanya Service akan menggunakan database yang sesuai dengan tugas yang harus dikerjakan
 
 
+## Bounded Context
+
+- Seperti yang dijelaskan sebelumnya, bahwa tiap Service akan memiliki dan melakukan manajemen database nya sendiri
+- Artinya database dan table tersebut hanya boleh diakses oleh Service tersebut
+- Contoh misal ketika kita memiliki Service yang digunakan untuk melakukan management data Seller, maka Seller Service yang hanya boleh melakukan management data Seller tersebut
+- Konsep ini, disebut dengan Bounded Context, yang dikenalkan oleh Eric Evans pada buku Domain-Driven Design
+
 
 
 
