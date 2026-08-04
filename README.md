@@ -452,6 +452,12 @@ contoh gambar :
 - Dengan meningkatnya penggunaan Microservices Architecture, akhirnya terdapat salah satu masalah yang sering dialami pengguna arsitektur tersebut, yaitu ketergantungan antar Service
 - Contoh pada kasus sebelumnya misalnya, ketika Seller Service bermasalah, misal mati, maka kita tidak bisa melihat data Product, hal ini karena Product Service butuh memanggil Seller Service ketika ingin menampilkan data Product
 
+## Event-Driven Architecture
+- Event-Driven Architecture merupakan arsitektur yang menggunakan Async Proses untuk saling berkomunikasi antar Service
+- Biasanya, pada arsitektur ini, Service akan mengirim setiap perubahan data yang terjadi pada Service tersebut ke aplikasi bernama Message Broker dalam bentuk data Event
+- Pengirim data Event kita sebut dengan nama Producer/Publisher
+- Service yang membutuhkan data Event nya akan mengambil data tersebut pada Message Broker
+- Penerima data Event kita sebut dengan nama Consumer/Listener
 
 
 
