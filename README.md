@@ -492,6 +492,11 @@ contoh gambar :
 [PIPELINE ARCH](Arch/PIPELINE-ARCH.excalidraw.png)
 
 
+## Topology
+- Dalam Pipeline Architecture, fokus utama adalah proses Filter terhadap message
+- Tidak ada aturan proses Filter apakah harus didalam aplikasi yang sama atau berbeda, jadi tidak ada benar atau salah
+- Filter biasanya adalah proses yang dilakukan dari mulai menerima input data, memproses data, dan berakhir dengan menghasilkan output data
+
 
 
 
