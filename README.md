@@ -325,6 +325,12 @@ contoh gambar :
 contoh gambar :
 (FAULT TOLERANCE)[Arch/FAULT-TOLERANCE.excalidraw.png]
 
+## Master-Master Architecture
+
+- Salah satu kekurangan Master-Slave Architecture adalah, semua request harus melewati aplikasi Master, sehingga ketika terjadi kelambatan di aplikasi Master, secara otomatis semua pengguna akan merasakan dampaknya, padahal mungkin aplikasi Slave tidak lambat
+- Pada kasus seperti itu, terdapat juga Master-Master Architecture, dimana ini adalah improvement dari Master-Slave Architecture
+- Yang membedakan Master-Master Architecture adalah, semua aplikasi bisa berjalan sebagai Master, sehingga bisa menerima request dari pengguna secara mandiri
+- Dan karena semua aplikasi adalah Master, tiap aplikasi bisa saja mengirim request ke aplikasi lain, ketika misal aplikasi sudah terlalu banyak menangani request dari pengguna
 
 
 
