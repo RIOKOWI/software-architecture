@@ -535,6 +535,13 @@ contoh gambar :
 * note : tidak cocok untuk pekerjaan yang butuh bener bener realtime
 
 
+# Space-Based Architecture
+
+## Triangle-Shaped
+- Pada kasus tertentu, ada jenis aplikasi yang biasanya memiliki traffic pengunjung yang tidak terduga, misal seperti website flashsale, penjualan tiket atau bidding
+- Arsitektur-arsitektur yang sebelumnya kita bahas, sebenarnya bisa kita gunakan untuk membuat jenis aplikasi tersebut, namun pada kasus tertentu, kadang akhirnya kita mendapatkan permasalahan triangle-shaped 
+
+
 
 
 
