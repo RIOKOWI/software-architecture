@@ -270,8 +270,10 @@ contoh gambar :
 - Arsitektur ini sangat sederhana, dimana terdapat aplikasi Client dan Server yang saling berinteraksi
 - Biasanya komunikasi antara Client dan Server menggunakan jaringan TCP/IP, walaupun tidak tertutup kemungkinan menggunakan jaringan lain seperti UDP
 
-
 * note : arch ini masuk kategori distributed arch
+
+contoh gambar :
+(CLIENT SERVER)[Arch/CLIENT-SERVER-ARCH.excalidraw.png]
 
 
 
