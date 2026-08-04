@@ -488,7 +488,8 @@ contoh gambar :
 - Pada kasus seperti ini, menyimpan data di database akan sangat menyulitkan untuk memprosesnya, karena data masuk biasanya dalam jumlah banyak dan terus menerus
 - Pipeline Architecture adalah arsitektur dimana kita memanfaatkan Message Queue seperti Message Broker sebagai tempat aliran data, dan kita bisa fokus membuat Filter untuk memproses data tersebut
 
-
+contoh gambar :
+[PIPELINE ARCH](Arch/PIPELINE-ARCH.excalidraw.png)
 
 
 
