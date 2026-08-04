@@ -30,7 +30,7 @@
 - Aplikasi yang menggunakan Monolithic Architecture akan sangat cepat dibuat dan didistribusikan
 
 contoh gambar :
-(MONOLITHIC)[MONOLITHIC.excalidraw.png]
+(MONOLITHIC)[Arch/MONOLITHIC.excalidraw.png]
 
 
 ## Distributed Architecture
@@ -39,7 +39,7 @@ contoh gambar :
 - Pengembangan Distributed Architecture memang lebih kompleks dibandingkan dengan Monolithic Architecture, namun menawarkan keuntungan seperti toleransi kesalahan (fault tolerance), misal ketika ada satu Service gagal, Service lain masih bisa berjalan dengan normal
 
 contoh gambar :
-(DISTRIBUTED)[DISTRIBUTED.excalidraw]
+(DISTRIBUTED)[Arch/DISTRIBUTED.excalidraw]
 
 ## Pilih yang Mana?
 - Pada saat pembuatan aplikasi, kadang kita bingung menentukan harus menggunakan arsitektur Monolithic atau Distributed
@@ -70,7 +70,7 @@ contoh gambar :
 * note : layer layer di atas tidak baku, boleh aja tambah layer lagi seperti service layer, api layer, dll
 
 contoh gambar :
-[TECHNICAL PARTIONING](TECHNICAL-PARTIONING.excalidraw.png)
+(TECHNICAL PARTIONING)[Arch/TECHNICAL-PARTIONING.excalidraw.png]
 
 
 ## Domain Partitioning
@@ -79,7 +79,7 @@ contoh gambar :
 - Partisi system berdasarkan Domain, populer sejak dikenalkan dalam buku berjudul “Domain Driven Design” karya Eric Evans.
 
 contoh gambar :
-[DOMAIN PARTIONING](DOMAIN-PARTIONING.excalidraw.png)
+(DOMAIN PARTIONING)[Arch/DOMAIN-PARTIONING.excalidraw.png]
 
 ## Pilih yang Mana?
 - Technical ataupun Domain Partitioning memiliki kelebihan dan kekurangan, namun secara pribadi saya rekomendasikan gunakan :
@@ -105,7 +105,7 @@ inti :
 - Rata-rata banyak yang membagi menjadi 4 layer, Presentation Layer, Business Layer, Persistence Layer dan Database Layer. Namun tidak menutup kemungkinan bisa lebih banyak layer ketika aplikasi sangat kompleks contoh ada meessage broker tambahin producer layer
 
 contoh gambar :
-[LAYERED-ARCHITECTURE](LAYERED-ARCHITECTURE.excalidraw.png)
+(LAYERED-ARCHITECTURE)[Arch/LAYERED-ARCHITECTURE.excalidraw.png]
 
 ## Tugas Tiap Layer
 
@@ -125,7 +125,7 @@ contoh gambar :
 - Misal kita ingin menampilkan halaman Product, namu di dalam halaman Product kita juga ingin menampilkan data Seller nya
 - Maka kita bisa buat alur aplikasi seperti pada diagram selanjutnya
 
-[FLOW-LAYERED-ARCH](FLOW-LAYERED-ARCH.excalidraw.png)
+(FLOW-LAYERED-ARCH)[Arch/FLOW-LAYERED-ARCH.excalidraw.png]
 
 
 ## Pertimbangan
@@ -144,7 +144,7 @@ contoh gambar :
 - dalam MVC pusat interaksi antar layer biasanya dilakukan oleh Controller
 
 contoh gambar :
-[MVC-ARCH](MVC-ARCH.excalidraw.png)
+(MVC-ARCH)[Arch/MVC-ARCH.excalidraw.png]
 
 ## Tugas Tiap Layer
 
@@ -161,7 +161,7 @@ contoh gambar :
 - Misal kita memiliki web, dimana terdapat satu halaman web yang perlu untuk menampilkan data wishlist. Pada halaman itu, selain data wishlist, kita juga harus menampilkan detail product yang terdapat di wishlist tersebut
 
 contoh gambar :
-[MVC-LAYERED](MVC-LAYERED.excalidraw.png)
+(MVC-LAYERED)[Arch/MVC-LAYERED.excalidraw.png]
 
 ## Pertimbangan
 
@@ -180,7 +180,7 @@ contoh gambar :
 - Hexagonal Architecture juga dikenal dengan Port & Adapter Architecture
 
 contoh gambar : 
-[HEXAGONAL-ARCH](HEXAGONAL-ARCH.excalidraw.png)
+(HEXAGONAL-ARCH)[Arch/HEXAGONAL-ARCH.excalidraw.png]
 
 ## Port dan Adapter
 
@@ -189,7 +189,7 @@ contoh gambar :
 - Adapter merupakan bagian yang berinteraksi langsung melalui Port, dan menggunakan teknologi yang sudah ditentukan
 
 contoh gambar :
-[HEXAGONAL-DETAIL-ARCH](HEXAGONAL-DETAIL-ARCH.excalidraw.png)
+(HEXAGONAL-DETAIL-ARCH)[Arch/HEXAGONAL-DETAIL-ARCH.excalidraw.png]
 
 
 ## Application Layer
@@ -200,7 +200,7 @@ contoh gambar :
 - Bagian Driven, biasanya disebut Infrastructure / Data Source / External Interfaces, yaitu target data keluar dari aplikasi
 
 contoh gambar :
-[DETAILING-HEXAGONAL](DETAILING-HEXAGONAL.excalidraw.png)
+(DETAILING-HEXAGONAL)[Arch/DETAILING-HEXAGONAL.excalidraw.png]
 
 
 ## Clean Architecture
@@ -208,7 +208,7 @@ contoh gambar :
 - Saat ini, terkenal juga arsitektur dengan nama Clean Architecture
 - Jangan bingung jika harus memilih Hexagonal Architecture atau Clean Architecture
 - Sebenarnya Clean Architecture tidak berbeda jauh dengan Hexagonal Architecture, bahkan penulis buku Clean Architecture pun memang sudah menjelaskan bahwa salah satu referensi Clean Architecture adalah dari Hexagonal Architecture
-- https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html 
+- `https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html` 
 
 * note : jangan bingung, salah satu referensi clean arch itu dari hexagonal arch
 
@@ -218,7 +218,7 @@ contoh gambar :
 - Dimana saat melakukan pembayaran, data pembayaran selain disimpan di database, akan dikirim ke Payment Gateway
 
 contoh gambar :
-[HEXAGONAL-ARCH-EXAMPLE](HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
+(HEXAGONAL-ARCH-EXAMPLE)[Arch/HEXAGONAL-ARCH-EXAMPLE.excalidraw.png]
 
 ## Pertimbangan
 - Hexagonal Architecture merupakan salah satu arsitektur yang bagus digunakan ketika kita akan membuat aplikasi yang kompleks dan agar aplikasinya technology agnostic sehingga mudah diganti-ganti
@@ -237,7 +237,7 @@ contoh gambar :
 - Microkernel Architecture sangat banyak digunakan pada aplikasi berbasis desktop biasanya, contoh seperti Visual Studio, Eclipse, dan lain-lain, dimana ada banyak sekali extension atau plug-in yang tersedia untuk aplikasi tersebut
 
 contoh gambar :
-[MICROKERNEL-ARCH.excalidraw](MICROKERNEL-ARCH.excalidraw.png)
+(MICROKERNEL-ARCH.excalidraw)[Arch/MICROKERNEL-ARCH.excalidraw.png]
 
 
 ## Topology
