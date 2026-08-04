@@ -498,6 +498,12 @@ contoh gambar :
 - Filter biasanya adalah proses yang dilakukan dari mulai menerima input data, memproses data, dan berakhir dengan menghasilkan output data
 
 
+## Cloud Function
+- Pipeline Architecture ini sekarang sangat populer di Cloud Provider seperti Google Cloud atau Amazon Web Service
+- Cloud Provider tersebut sekarang memiliki fitur untuk Cloud Function, dimana bisa digunakan sebagai Filter dalam Pipeline Architecture
+- Salah satu keuntungan menggunakan Cloud Function, kita hanya perlu bayar ketika Filter melakukan pemrosesan data
+- `https://cloud.google.com/functions/docs/calling/pubsub`
+- `https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html `
 
 
 
