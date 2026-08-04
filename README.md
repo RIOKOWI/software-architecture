@@ -275,6 +275,11 @@ contoh gambar :
 contoh gambar :
 (CLIENT SERVER)[Arch/CLIENT-SERVER-ARCH.excalidraw.png]
 
+## Topology
+
+- Client adalah aplikasi yang digunakan oleh pengguna dan berinteraksi langsung dengan pengguna. Biasanya aplikasi Client adalah aplikasi yang berbasis user interface, baik itu berupa Web, Desktop atau bisa saja berbasis Terminal. Client akan mengirim semua request yang diminta oleh pengguna ke aplikasi Server
+- Server adalah inti dari aplikasi, dimana semua logika dan aturan bisnis dilakukan di Server. Server akan menjalankan perintah yang diminta oleh Client, dan mengembalikan data yang diminta ke Client
+- Keuntungan menggunakan Client-Server Architecture adalah, kita bisa menjalankan banyak aplikasi jenis Client hanya dengan menggunakan satu aplikasi Server
 
 
 
