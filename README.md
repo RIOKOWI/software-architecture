@@ -514,11 +514,14 @@ contoh gambar :
 - Pipeline Architecture juga sering digunakan dalam melakukan pengolahan data, atau sering dikenal dengan nama Data Pipeline
 - Dalam Data Pipeline, biasanya terdapat Source (sumber data), Destination (tujuan akhir data), dan juga Processing (pengolahan data)
 
-
 contoh gambar :
 [DATA PIPELINE](Arch/DATA-PIPELINE.excalidraw.png)
 
 
+## Contoh
+- Kita ingin membuat laporan jumlah pengunjung harian website kita, dimana pada laporan tersebut, kita bisa melihat jumlah pengunjung berdasarkan negara pengunjung
+- Pada kasus ini, kita bisa menggunakan Pipeline Architecture
+- Dimulai dari setiap data kunjungan ke website kita, kita akan kirim sebagai event ke Message Broker, lalu kita akan buat filter, dari filter untuk mendeteksi ipaddress, filter untuk mendapatkan negara berdasarkan ip, dan filter untuk melakukan grouping berdasarkan negara
 
 
 
