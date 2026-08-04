@@ -366,7 +366,10 @@ contoh gambar :
 - Oleh karena itu pembuatan aplikasi Peer-to-Peer Architecture sangat kompleks karena setiap Peer harus tahu ketika terdapat Peer baru, karena pada kenyataanya Peer baru bisa datang dan hilang kapan saja
 
 
-
+## vs Master-Master Architecture
+- Apa bedanya Peer-to-Peer Architecture dan Master-Master Architecture?
+- Pada Peer-to-Peer, tiap Peer bisa menjadi Client ataupun Server
+- Sedangkan pada Master-Master, tiap Master adalah Server, biasanya Client adalah aplikasi yang terpisah dan terkoneksi ke Master-Master dengan arsitektur Client-Server
 
 
 
