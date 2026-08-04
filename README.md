@@ -359,6 +359,11 @@ contoh gambar :
 (PEER2PEER ARCH)[Arch/PEER-2-PEER-ARCH.excalidraw.png]
 
 
+## Topology
+
+- Dalam Peer-to-Peer Architecture seakan terlihat sederhana, namun sebenarnya arsitektur ini sangat kompleks
+- Setiap Peer bisa menjadi Client yang melakukan request ke Peer lain, atau bahkan menjadi Server pada saat yang bersamaan dengan mengirim response ke Peer lain
+- Oleh karena itu pembuatan aplikasi Peer-to-Peer Architecture sangat kompleks karena setiap Peer harus tahu ketika terdapat Peer baru, karena pada kenyataanya Peer baru bisa datang dan hilang kapan saja
 
 
 
