@@ -427,6 +427,9 @@ contoh gambar :
 - Pada kasus ini, kita bisa mengambil data Product ke Product Service, lalu Product Service meminta data Seller ke Seller Service
 
 
+contoh gambar :
+(COMMUNCATION SERVICES)[Arch/COMMUNCATION-SERVICES.excalidraw.png]
+
 
 
 
