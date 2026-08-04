@@ -506,6 +506,9 @@ contoh gambar :
 - `https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html `
 
 
+contoh gambar :
+[PIPELINE CLOUD FUNCTION](Arch/PIPELINE-CLOUD-FUNCTION.excalidraw.png)
+
 
 
 
