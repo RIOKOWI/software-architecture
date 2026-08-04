@@ -459,7 +459,8 @@ contoh gambar :
 - Service yang membutuhkan data Event nya akan mengambil data tersebut pada Message Broker
 - Penerima data Event kita sebut dengan nama Consumer/Listener
 
-
+contoh gambar :
+(EVENT DRIVEN)[Arch/EVENT-DRIVEN-ARCH.excalidraw.png]
 
 
 
