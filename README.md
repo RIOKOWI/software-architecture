@@ -482,5 +482,39 @@ contoh gambar :
 * note : producer dan consumer harus berhasil agar data nya sinkron, dan proses debugging nya ribet/kompleks banget
 
 
+# Pipeline Architecture
+- Pipeline Architecture adalah arsitektur yang erat kaitannya dengan Data Stream (aliran data)
+- Pada beberapa kasus, kadang kita menemui sumber data yang masuk tanpa henti, misal data log aktivitas pengguna misalnya
+- Pada kasus seperti ini, menyimpan data di database akan sangat menyulitkan untuk memprosesnya, karena data masuk biasanya dalam jumlah banyak dan terus menerus
+- Pipeline Architecture adalah arsitektur dimana kita memanfaatkan Message Queue seperti Message Broker sebagai tempat aliran data, dan kita bisa fokus membuat Filter untuk memproses data tersebut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # SLIDE
 `https://docs.google.com/presentation/d/1eaaTjJLmRcSMQK9VfT3zHuEJp7LXL-uJVuFw4e6ZIcM/edit`
