@@ -286,6 +286,10 @@ contoh gambar :
 (CLIENTS SERVER)[Arch/CLIENTS-SERVER.excalidraw.png]
 
 
+## Contoh
+
+- Client-Server Architecture adalah arsitektur yang saat ini sangat banyak digunakan, bahkan mungkin secara tidak sadar, kita sudah menggunakan arsitektur ini
+- Ketika kita membuat aplikasi Mobile lalu terkoneksi ke RESTful API, sebenarnya itu adalah Client-Server Architecture
 
 
 
