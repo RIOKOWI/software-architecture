@@ -346,6 +346,9 @@ contoh gambar :
 - Atau seperti aplikasi sistem basis data Elasticsearch dan Cassandra, yang menggunakan Master-Master Architecture
 
 
+## Pertimbangan
+- Gunakan arsitektur Master-Slave / Master-Master ketika kita ingin membuat aplikasi yang statefull (menyimpan data)
+- Jika kita membuat aplikasi yang stateless (tidak menyimpan data), maka disarankan tidak menggunakan arsitektur ini
 
 
 
