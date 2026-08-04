@@ -541,7 +541,9 @@ contoh gambar :
 - Pada kasus tertentu, ada jenis aplikasi yang biasanya memiliki traffic pengunjung yang tidak terduga, misal seperti website flashsale, penjualan tiket atau bidding
 - Arsitektur-arsitektur yang sebelumnya kita bahas, sebenarnya bisa kita gunakan untuk membuat jenis aplikasi tersebut, namun pada kasus tertentu, kadang akhirnya kita mendapatkan permasalahan triangle-shaped 
 
+contoh gambar :
 
+[TRIANGLE SHAPED](Arch/TRIANGLE-SHAPED-ARCH.excalidraw.png)
 
 
 
