@@ -355,7 +355,8 @@ contoh gambar :
 - Hanya saja, dalam Peer-to-Peer, semua aplikasi bisa menjadi Client dan juga Server secara berbarengan
 - Biasanya logika aplikasi akan terpusat di aplikasi Server, pada Peer-to-Peer, logika aplikasi tidak terpusat di satu aplikasi, semua aplikasi bisa menjadi Server sekaligus Client
 
-
+contoh gambar :
+(PEER2PEER ARCH)[Arch/PEER-2-PEER-ARCH.excalidraw.png]
 
 
 
