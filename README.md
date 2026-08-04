@@ -528,6 +528,12 @@ contoh gambar :
 [PIPELINE STUDY CASE](Arch/PIPELINE-STUDY-CASE.excalidraw.png)
 
 
+## Pertimbangan
+- Pipeline Architecture merupakan arsitektur yang sangat cocok ketika kita ingin melakukan pemrosesan yang sangat panjang dan bertahap
+- Pipeline Architecture bisa sangat lama melakukan pemrosesan, tergantung seberapa panjang Filter yang ada, oleh karena itu tidak cocok untuk melakukan pekerjaan yang butuh waktu realtime
+
+* note : tidak cocok untuk pekerjaan yang butuh bener bener realtime
+
 
 
 
