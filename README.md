@@ -420,6 +420,11 @@ contoh gambar :
 - Jika ada Service lain yang membutuhkan data Seller, maka Service lain tersebut harus meminta data Seller ke Seller Service, dengan cara komunikasi yang sudah ditentukan, misal RESTful API (Client-Server Architecture)
 
 
+## Contoh
+
+- Pada halaman web toko online, kita ingin menampilkan data detail Product
+- Namun pada halaman data detail Product, selain informasi Product, kita juga ingin menampilkan data Seller yang menjual Product tersebut
+- Pada kasus ini, kita bisa mengambil data Product ke Product Service, lalu Product Service meminta data Seller ke Seller Service
 
 
 
