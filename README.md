@@ -305,7 +305,9 @@ contoh gambar :
 - Aplikasi yang memerintah semua aplikasi dinamakan Master, dan aplikasi yang menerima perintah dinamakan Slave
 - Sama seperti Client-Server Architecture, biasanya komunikasi Master dan Slave menggunakan jaringan TCP/IP
 
+contoh gambar :
 
+(MASTER SLAVE ARCH)[Arch/MASTER-SLAVE-ARCH.excalidraw.png]
 
 
 
