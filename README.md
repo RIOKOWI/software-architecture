@@ -31,7 +31,7 @@
 - Aplikasi yang menggunakan Monolithic Architecture akan sangat cepat dibuat dan didistribusikan
 
 contoh gambar :
-(MONOLITHIC)[Arch/MONOLITHIC.excalidraw.png]
+[MONOLITHIC](Arch/MONOLITHIC.excalidraw.png)
 
 
 ## Distributed Architecture
@@ -72,7 +72,7 @@ contoh gambar :
 * note : layer layer di atas tidak baku, boleh aja tambah layer lagi seperti service layer, api layer, dll
 
 contoh gambar :
-(TECHNICAL PARTIONING)[Arch/TECHNICAL-PARTIONING.excalidraw.png]
+[TECHNICAL PARTIONING](Arch/TECHNICAL-PARTIONING.excalidraw.png)
 
 
 ## Domain Partitioning
@@ -81,7 +81,7 @@ contoh gambar :
 - Partisi system berdasarkan Domain, populer sejak dikenalkan dalam buku berjudul “Domain Driven Design” karya Eric Evans.
 
 contoh gambar :
-(DOMAIN PARTIONING)[Arch/DOMAIN-PARTIONING.excalidraw.png]
+[DOMAIN PARTIONING](Arch/DOMAIN-PARTIONING.excalidraw.png)
 
 ## Pilih yang Mana?
 - Technical ataupun Domain Partitioning memiliki kelebihan dan kekurangan, namun secara pribadi saya rekomendasikan gunakan :
@@ -108,7 +108,7 @@ inti :
 - Rata-rata banyak yang membagi menjadi 4 layer, Presentation Layer, Business Layer, Persistence Layer dan Database Layer. Namun tidak menutup kemungkinan bisa lebih banyak layer ketika aplikasi sangat kompleks contoh ada meessage broker tambahin producer layer
 
 contoh gambar :
-(LAYERED-ARCHITECTURE)[Arch/LAYERED-ARCHITECTURE.excalidraw.png]
+[LAYERED-ARCHITECTURE](Arch/LAYERED-ARCHITECTURE.excalidraw.png)
 
 ## Tugas Tiap Layer
 
@@ -128,7 +128,7 @@ contoh gambar :
 - Misal kita ingin menampilkan halaman Product, namu di dalam halaman Product kita juga ingin menampilkan data Seller nya
 - Maka kita bisa buat alur aplikasi seperti pada diagram selanjutnya
 
-(FLOW-LAYERED-ARCH)[Arch/FLOW-LAYERED-ARCH.excalidraw.png]
+[FLOW LAYERED ARCH](Arch/FLOW-LAYERED-ARCH.excalidraw.png)
 
 
 ## Pertimbangan
@@ -147,7 +147,7 @@ contoh gambar :
 - dalam MVC pusat interaksi antar layer biasanya dilakukan oleh Controller
 
 contoh gambar :
-(MVC-ARCH)[Arch/MVC-ARCH.excalidraw.png]
+[MVC ARCH](Arch/MVC-ARCH.excalidraw.png)
 
 ## Tugas Tiap Layer
 
@@ -164,7 +164,7 @@ contoh gambar :
 - Misal kita memiliki web, dimana terdapat satu halaman web yang perlu untuk menampilkan data wishlist. Pada halaman itu, selain data wishlist, kita juga harus menampilkan detail product yang terdapat di wishlist tersebut
 
 contoh gambar :
-(MVC-LAYERED)[Arch/MVC-LAYERED.excalidraw.png]
+[MVC LAYERED](Arch/MVC-LAYERED.excalidraw.png)
 
 ## Pertimbangan
 
@@ -185,7 +185,7 @@ contoh gambar :
 - Hexagonal Architecture juga dikenal dengan Port & Adapter Architecture
 
 contoh gambar : 
-(HEXAGONAL-ARCH)[Arch/HEXAGONAL-ARCH.excalidraw.png]
+[HEXAGONAL ARCH](Arch/HEXAGONAL-ARCH.excalidraw.png)
 
 ## Port dan Adapter
 
@@ -194,7 +194,7 @@ contoh gambar :
 - Adapter merupakan bagian yang berinteraksi langsung melalui Port, dan menggunakan teknologi yang sudah ditentukan
 
 contoh gambar :
-(HEXAGONAL-DETAIL-ARCH)[Arch/HEXAGONAL-DETAIL-ARCH.excalidraw.png]
+[HEXAGONAL DETAIL ARCH](Arch/HEXAGONAL-DETAIL-ARCH.excalidraw.png)
 
 
 ## Application Layer
@@ -205,7 +205,7 @@ contoh gambar :
 - Bagian Driven, biasanya disebut Infrastructure / Data Source / External Interfaces, yaitu target data keluar dari aplikasi
 
 contoh gambar :
-(DETAILING-HEXAGONAL)[Arch/DETAILING-HEXAGONAL.excalidraw.png]
+[DETAILING HEXAGONAL](Arch/DETAILING-HEXAGONAL.excalidraw.png)
 
 
 ## Clean Architecture
@@ -223,7 +223,7 @@ contoh gambar :
 - Dimana saat melakukan pembayaran, data pembayaran selain disimpan di database, akan dikirim ke Payment Gateway
 
 contoh gambar :
-(HEXAGONAL-ARCH-EXAMPLE)[Arch/HEXAGONAL-ARCH-EXAMPLE.excalidraw.png]
+[HEXAGONAL ARCH EXAMPLE](Arch/HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
 
 ## Pertimbangan
 - Hexagonal Architecture merupakan salah satu arsitektur yang bagus digunakan ketika kita akan membuat aplikasi yang kompleks dan agar aplikasinya technology agnostic sehingga mudah diganti-ganti
@@ -244,7 +244,7 @@ contoh gambar :
 - Microkernel Architecture sangat banyak digunakan pada aplikasi berbasis desktop biasanya, contoh seperti Visual Studio, Eclipse, dan lain-lain, dimana ada banyak sekali extension atau plug-in yang tersedia untuk aplikasi tersebut
 
 contoh gambar :
-(MICROKERNEL-ARCH.excalidraw)[Arch/MICROKERNEL-ARCH.excalidraw.png]
+[MICROKERNEL-ARCH.excalidraw](Arch/MICROKERNEL-ARCH.excalidraw.png)
 
 
 ## Topology
@@ -273,7 +273,7 @@ contoh gambar :
 * note : arch ini masuk kategori distributed arch
 
 contoh gambar :
-(CLIENT SERVER)[Arch/CLIENT-SERVER-ARCH.excalidraw.png]
+[CLIENT SERVER](Arch/CLIENT-SERVER-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -283,7 +283,7 @@ contoh gambar :
 
 contoh gambar :
 
-(CLIENTS SERVER)[Arch/CLIENTS-SERVER.excalidraw.png]
+[CLIENTS SERVER](Arch/CLIENTS-SERVER.excalidraw.png)
 
 
 ## Contoh
@@ -307,7 +307,7 @@ contoh gambar :
 
 contoh gambar :
 
-(MASTER SLAVE ARCH)[Arch/MASTER-SLAVE-ARCH.excalidraw.png]
+[MASTER SLAVE ARCH](Arch/MASTER-SLAVE-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -323,7 +323,7 @@ contoh gambar :
 - Begitu juga ketika terjadi masalah yang menyebabkan aplikasi Master mati, maka secara otomatis salah satu Slave akan dipromosikan menjadi Master baru
 
 contoh gambar :
-(FAULT TOLERANCE)[Arch/FAULT-TOLERANCE.excalidraw.png]
+[FAULT TOLERANCE](Arch/FAULT-TOLERANCE.excalidraw.png)
 
 ## Master-Master Architecture
 
@@ -333,7 +333,7 @@ contoh gambar :
 - Dan karena semua aplikasi adalah Master, tiap aplikasi bisa saja mengirim request ke aplikasi lain, ketika misal aplikasi sudah terlalu banyak menangani request dari pengguna
 
 contoh gambar :
-(MASTER MASTER ARCH)[Arch/MASTER-MASTER-ARCH.excalidraw.png]
+[MASTER MASTER ARCH](Arch/MASTER-MASTER-ARCH.excalidraw.png)
 
 ## Replication
 
@@ -356,7 +356,7 @@ contoh gambar :
 - Biasanya logika aplikasi akan terpusat di aplikasi Server, pada Peer-to-Peer, logika aplikasi tidak terpusat di satu aplikasi, semua aplikasi bisa menjadi Server sekaligus Client
 
 contoh gambar :
-(PEER2PEER ARCH)[Arch/PEER-2-PEER-ARCH.excalidraw.png]
+[PEER2PEER ARCH](Arch/PEER-2-PEER-ARCH.excalidraw.png)
 
 
 ## Topology
@@ -394,7 +394,7 @@ contoh gambar :
 - Pada arsitektur ini, tidak aneh jika sebuah system memiliki ratusan bahkan ribuan Service mandiri, hal ini karena tiap Service memang memiliki tugas masing-masing
 
 contoh gambar :
-(MICROSERVICE)[Arch/MICROSERVICE-ARCH.excalidraw.png]
+[MICROSERVICE](Arch/MICROSERVICE-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -412,7 +412,7 @@ contoh gambar :
 
 contoh gambar :
 
-(BOUNDED CONTEXT)[Arch/BOUNDED-CONTEXT.excalidraw.png]
+[BOUNDED CONTEXT](Arch/BOUNDED-CONTEXT.excalidraw.png)
 
 
 ## Komunikasi Antar Service
@@ -428,7 +428,7 @@ contoh gambar :
 
 
 contoh gambar :
-(COMMUNCATION SERVICES)[Arch/COMMUNCATION-SERVICES.excalidraw.png]
+[COMMUNCATION SERVICES](Arch/COMMUNCATION-SERVICES.excalidraw.png)
 
 
 ## Pendukung
@@ -460,7 +460,7 @@ contoh gambar :
 - Penerima data Event kita sebut dengan nama Consumer/Listener
 
 contoh gambar :
-(EVENT DRIVEN)[Arch/EVENT-DRIVEN-ARCH.excalidraw.png]
+[EVENT DRIVEN](Arch/EVENT-DRIVEN-ARCH.excalidraw.png)
 
 ## Duplicate Data
 - Seperti yang sudah kita tahu, dalam Microservices Architecture terdapat aturan Bounded Context, dimana data hanya bisa diakses oleh Service itu sendiri
@@ -470,7 +470,7 @@ contoh gambar :
 * note: jika add data cuma untuk id & nama seller yang di duplikat ya cuma 2 itu aja
 
 contoh gambar :
-(EVENT DRIVEN ASYNC)[Arch/EVENT-DRIVEN-ASYNC.excalidraw.png]
+[EVENT DRIVEN ASYNC](Arch/EVENT-DRIVEN-ASYNC.excalidraw.png)
 
 
 ## Pertimbangan
@@ -479,7 +479,7 @@ contoh gambar :
 - Async Process juga akan menyebabkan proses menjadi delay, oleh karena itu kadang pengguna tidak menerima hasil secara realtime, karena Async Process belum selesai
 - Ketika terjadi masalah pada Async Process, melakukan pencarian masalah lebih sulit dibanding Sync Process pada arsitektur Microservices
 
-* note : producer dan consumer harus berhasil agar data nya sinkron
+* note : producer dan consumer harus berhasil agar data nya sinkron, dan proses debugging nya ribet/kompleks banget
 
 
 # SLIDE
