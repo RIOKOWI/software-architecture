@@ -515,7 +515,8 @@ contoh gambar :
 - Dalam Data Pipeline, biasanya terdapat Source (sumber data), Destination (tujuan akhir data), dan juga Processing (pengolahan data)
 
 
-
+contoh gambar :
+[DATA PIPELINE](Arch/DATA-PIPELINE.excalidraw.png)
 
 
 
