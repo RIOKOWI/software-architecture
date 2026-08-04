@@ -296,6 +296,15 @@ contoh gambar :
 - Namun jika kita ingin membuat aplikasi yang standalone, tidak butuh menyimpan data di Server, maka kita tidak butuh membuat aplikasi Client-Server, contoh seperti aplikasi editor untuk Photo, Video dan sejenis nya
 
 
+# Master-Slave Architecture
+
+
+## Master-Slave Architecture
+
+- Master-Slave Architecture merupakan arsitektur dimana aplikasi bisa mendistribusikan semua pekerjaannya ke aplikasi lain
+- Aplikasi yang memerintah semua aplikasi dinamakan Master, dan aplikasi yang menerima perintah dinamakan Slave
+- Sama seperti Client-Server Architecture, biasanya komunikasi Master dan Slave menggunakan jaringan TCP/IP
+
 
 
 
