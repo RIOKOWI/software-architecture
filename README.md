@@ -396,6 +396,11 @@ contoh gambar :
 contoh gambar :
 (MICROSERVICE)[Arch/MICROSERVICE-ARCH.excalidraw.png]
 
+## Topology
+
+- Biasanya dalam Microservices Architecture, setiap Service akan berjalan secara independent dan memiliki database masing-masing, tidak melakukan sharing database dengan Service lain
+- Biasanya juga tiap Service tidak akan di expose secara terbuka ke pengguna, melainkan pengguna akan melewati API Gateway, yaitu aplikasi yang bertugas sebagai gerbang untuk menerima request dan meneruskan ke Service yang dituju
+- Karena tiap Service memiliki tugas masing-masing, maka tidak jarang database yang digunakanpun bisa berbeda-beda, hal ini karena biasanya Service akan menggunakan database yang sesuai dengan tugas yang harus dikerjakan
 
 
 
