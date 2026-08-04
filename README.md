@@ -281,6 +281,10 @@ contoh gambar :
 - Server adalah inti dari aplikasi, dimana semua logika dan aturan bisnis dilakukan di Server. Server akan menjalankan perintah yang diminta oleh Client, dan mengembalikan data yang diminta ke Client
 - Keuntungan menggunakan Client-Server Architecture adalah, kita bisa menjalankan banyak aplikasi jenis Client hanya dengan menggunakan satu aplikasi Server
 
+contoh gambar :
+
+(CLIENTS SERVER)[Arch/CLIENTS-SERVER.excalidraw.png]
+
 
 
 
