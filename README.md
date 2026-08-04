@@ -340,6 +340,10 @@ contoh gambar :
 - Yang perlu diingat dalam Master-Slave / Master-Master Architecture, biasanya data di aplikasi selalu di replikasi/duplikasi ke semua Slave / Master
 - Hal ini agar data selalu sama, sehingga pekerjaan yang dikerjakan oleh semua aplikasi Slave/Master akan selalu konsisten
 
+## Contoh
+- Master-Slave / Master-Master Architecture jangan digunakan ketika membuat aplikasi sistem informasi, arsitektur ini rata-rata sering digunakan ketika kita membuat aplikasi statefull (menyimpan data) seperti sistem basis data
+- Hampir kebanyakan aplikasi sistem basis data seperti MySQL, PostgreSQL, MongoDB mengimplementasikan arsitektur Master-Slave Architecture
+- Atau seperti aplikasi sistem basis data Elasticsearch dan Cassandra, yang menggunakan Master-Master Architecture
 
 
 
