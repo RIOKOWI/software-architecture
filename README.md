@@ -431,6 +431,11 @@ contoh gambar :
 (COMMUNCATION SERVICES)[Arch/COMMUNCATION-SERVICES.excalidraw.png]
 
 
+## Pendukung
+- Untuk menggunakan Microservices Architecture biasanya tidak hanya melibatkan tim programmer
+- Banyak sekali yang harus diubah seperti infrastructure dan tim product/bisnis
+- Hal ini karena biasanya dalam Microservice Architecture, pembagian Service akan dilakukan berdasarkan domain bisnis, jadi tidak sederhana membuat aplikasi kecil
+- Pada beberapa kasus, kesalahan pembuatan jenis Service bisa mempersulit tim pengembang, oleh karena itu diperlukan orang Domain Expert atau yang sudah ahli di bidangnya secara bisnis
 
 
 
