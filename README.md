@@ -469,7 +469,8 @@ contoh gambar :
 
 * note: jika add data cuma untuk id & nama seller yang di duplikat ya cuma 2 itu aja
 
-
+contoh gambar :
+(EVENT DRIVEN SYNC)[Arch/EVENT-DRIVEN-SYNC.excalidraw.png]
 
 
 
