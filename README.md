@@ -309,6 +309,12 @@ contoh gambar :
 
 (MASTER SLAVE ARCH)[Arch/MASTER-SLAVE-ARCH.excalidraw.png]
 
+## Topology
+
+- Biasanya, semua request ke aplikasi akan lewat aplikasi Master
+- Semua pekerjaan yang diterima oleh Master, biasanya akan didistribusikan ke aplikasi Slave
+- Dengan begitu, pekerjaan bisa lebih cepat karena bisa dikerjakan oleh banyak aplikasi Slave
+- Pada diagram, kita hanya membuat 3 aplikasi Slave, namun kenyataanya, tidak ada batasan jumlah aplikasi Slave
 
 
 
