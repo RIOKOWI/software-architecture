@@ -470,11 +470,16 @@ contoh gambar :
 * note: jika add data cuma untuk id & nama seller yang di duplikat ya cuma 2 itu aja
 
 contoh gambar :
-(EVENT DRIVEN SYNC)[Arch/EVENT-DRIVEN-SYNC.excalidraw.png]
+(EVENT DRIVEN ASYNC)[Arch/EVENT-DRIVEN-ASYNC.excalidraw.png]
 
 
+## Pertimbangan
+- Event-Driven Architecture saat ini banyak yang menggunakan, karena permasalahan yang terjadi di Microservices Architecture, namun perlu diperhatikan, ada juga akibat yang terjadi ketika kita menggunakan Async Process
+- Pada kasus sebelumnya, kita harus memastikan data Seller Event diterima dengan baik oleh Product Service, jika gagal secara otomatis data Seller tidak akan ada di database Product
+- Async Process juga akan menyebabkan proses menjadi delay, oleh karena itu kadang pengguna tidak menerima hasil secara realtime, karena Async Process belum selesai
+- Ketika terjadi masalah pada Async Process, melakukan pencarian masalah lebih sulit dibanding Sync Process pada arsitektur Microservices
 
-
+* note : producer dan consumer harus berhasil agar data nya sinkron
 
 
 # SLIDE
