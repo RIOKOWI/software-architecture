@@ -332,6 +332,9 @@ contoh gambar :
 - Yang membedakan Master-Master Architecture adalah, semua aplikasi bisa berjalan sebagai Master, sehingga bisa menerima request dari pengguna secara mandiri
 - Dan karena semua aplikasi adalah Master, tiap aplikasi bisa saja mengirim request ke aplikasi lain, ketika misal aplikasi sudah terlalu banyak menangani request dari pengguna
 
+contoh gambar :
+(MASTER MASTER ARCH)[Arch/MASTER-MASTER-ARCH.excalidraw.png]
+
 
 
 
