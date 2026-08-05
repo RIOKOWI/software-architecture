@@ -575,6 +575,11 @@ contoh gambar :
 - Oracle Coherence `https://www.oracle.com/java/coherence/`
 - Dan lain-lain
 
+## Pertimbangan
+- Spaced-Based Architecture merupakan solusi yang sangat kompleks untuk mencapai scalability yang sangat baik
+- Namun walaupun solusi ini sangat baik, tapi kadang solusi ini bukan yang terbaik, kita harus melihat banyak pertimbangan ketika menggunakan arsitektur ini
+- Contoh jika data kita terlalu besar, maka akan sulit menggunakan arsitektur ini, karena seluruh data harus dipindahkan ke memory, yang pasti butuh biaya yang sangat besar
+- Karena kompleksitas dan mahalnya solusi ini, kita juga harus mempertimbangkan biaya yang harus dikeluarkan untuk menggunakan arsitektur ini
 
 
 
