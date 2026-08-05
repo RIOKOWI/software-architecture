@@ -545,6 +545,14 @@ contoh gambar :
 
 [TRIANGLE SHAPED](Arch/TRIANGLE-SHAPED-ARCH.excalidraw.png)
 
+## Triangle-Shaped Topology
+
+- Triangle-Shaped Topology adalah kondisi dimana kita melakukan scalability dengan cara menambah jumlah aplikasi ketika terjadi kelambatan di system kita
+- Pada kasus ketika kita membuat web, untuk menambah jumlah web server biasanya sangat mudah, karena hanya menyediakan website user interface, selanjutnya biasanya kelambatan akan berpindah ke server Backend misal di RESTful API
+- Selanjutnya biasanya kita akan menambah jumlah server RESTful API, namun tidak akan sebanyak Web Server, karena biasanya aplikasinya lebih berat dan membutuhkan resource lebih besar, selanjutnya kelambatan akan berpindah ke Database
+- Pada kasus seperti ini, menambah server di database bukanlah hal yang mudah, tidak seflexible Web Server dan RESTful API, karena database adalah aplikasi statefull (menyimpan data)
+
+
 
 ## Space-Based Architecture
 
