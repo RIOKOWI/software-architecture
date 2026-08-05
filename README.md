@@ -568,6 +568,13 @@ contoh gambar :
 - Jika kita mau, kita bisa secara async menyimpan perubahan yang terjadi di In Memory Data Grid ke Database
 
 
+## Contoh Data Grid
+- Biasanya Data Grid tidak perlu dibuat secara manual oleh pengembang aplikasi, sama seperti Database, kita bisa menggunakan aplikasi Data Grid yang sudah tersedia, contohnya
+- Hazelcast `https://hazelcast.com/` 
+- Apache Ignite `https://ignite.apache.org/`
+- Oracle Coherence `https://www.oracle.com/java/coherence/`
+- Dan lain-lain
+
 
 
 
