@@ -552,15 +552,14 @@ contoh gambar :
 - Selanjutnya biasanya kita akan menambah jumlah server RESTful API, namun tidak akan sebanyak Web Server, karena biasanya aplikasinya lebih berat dan membutuhkan resource lebih besar, selanjutnya kelambatan akan berpindah ke Database
 - Pada kasus seperti ini, menambah server di database bukanlah hal yang mudah, tidak seflexible Web Server dan RESTful API, karena database adalah aplikasi statefull (menyimpan data)
 
-
-
 ## Space-Based Architecture
 
 - Space-Based Architecture merupakan arsitektur yang di desain khusus untuk kasus seperti ini, dimana kita butuh scalability dan performa yang baik untuk aplikasi
 - Space-Based Architecture menyelesaikan masalah ini, dengan cara menghapus database dari proses transaksi aplikasi, dan diganti dengan shared-memory (Data Grid)
 - High Scalability dicapai dengan cara semua aplikasi terkoneksi ke shared-memory (Data Grid) secara synchronous, dan secara asynchronous data di shared-memory akan di sync ke database
 
-
+contoh gambar :
+[SPACE BASED ARCH](Arch/SPACE-BASED-ARCH.excalidraw.png)
 
 
 
