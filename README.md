@@ -546,6 +546,12 @@ contoh gambar :
 [TRIANGLE SHAPED](Arch/TRIANGLE-SHAPED-ARCH.excalidraw.png)
 
 
+## Space-Based Architecture
+
+- Space-Based Architecture merupakan arsitektur yang di desain khusus untuk kasus seperti ini, dimana kita butuh scalability dan performa yang baik untuk aplikasi
+- Space-Based Architecture menyelesaikan masalah ini, dengan cara menghapus database dari proses transaksi aplikasi, dan diganti dengan shared-memory (Data Grid)
+- High Scalability dicapai dengan cara semua aplikasi terkoneksi ke shared-memory (Data Grid) secara synchronous, dan secara asynchronous data di shared-memory akan di sync ke database
+
 
 
 
