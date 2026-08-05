@@ -561,6 +561,11 @@ contoh gambar :
 contoh gambar :
 [SPACE BASED ARCH](Arch/SPACE-BASED-ARCH.excalidraw.png)
 
+## Topology
+- Dalam Spaced-Based Architecture, aplikasi yang kita buat disebut dengan Processing Unit
+- Dalam Processing Unit, terdapat logic aplikasi kita dan juga berisi In Memory Data Grid yang digunakan sebagai pengganti Database
+- Biasanya terdapat Data Replication Engine yang digunakan untuk melakukan sinkronisasi seluruh data di In Memory Data Grid untuk semua Processing Unit dengan dibantu oleh Data Grid Cluster
+- Jika kita mau, kita bisa secara async menyimpan perubahan yang terjadi di In Memory Data Grid ke Database
 
 
 
