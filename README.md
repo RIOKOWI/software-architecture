@@ -581,8 +581,19 @@ contoh gambar :
 - Contoh jika data kita terlalu besar, maka akan sulit menggunakan arsitektur ini, karena seluruh data harus dipindahkan ke memory, yang pasti butuh biaya yang sangat besar
 - Karena kompleksitas dan mahalnya solusi ini, kita juga harus mempertimbangkan biaya yang harus dikeluarkan untuk menggunakan arsitektur ini
 
+* note : harga RAM lebih mahal daripada disk
 
+# Penutup
+## Software Architecture Patterns Lainnya
+- Kelas ini tidak membahas semua Software Architecture Patterns yang ada, hanya membahas yang sering digunakan
+- Teknologi khususnya pada Software Design selalu berkembang dari waktu ke waktu, awal tahun 2000 belum banyak yang menggunakan Microservices, namun sekarang hampir semua perusahaan besar menggunakannya
+- Masih banyak juga patterns yang belum dibahas, dan bisa dipelajari secara mandiri, seperti :
+- Onion Architecture, Screaming Architecture, Event-Bus Architecture, dan masih banyak yang lainnya
 
+## Penutup
+- Software Architecture Patterns bukanlah solusi yang saklek dimana kita harus memilih salah satunya
+- Kita bisa melakukan kombinasi beberapa Patterns yang memang sesuai dengan kebutuhan kita
+- Misal kita bisa kombinasikan Microservices dan Event-Driven, atau Monolith dengan Layered, Microservices dengan Layered, dan lain-lain
 
 
 # SLIDE
