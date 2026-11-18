@@ -14,3 +14,11 @@ strategi paling mudah
 
 contoh di file :
 - [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
+
+
+## SKENARIO 2
+strategi sharing database:
+- database lama di refactor untuk app baru, entah tambah kolom aja atau tambah tabel juga
+- jadi 1 database bisa di pakai 2 app, baru & lama
+contoh di file :
+- [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
