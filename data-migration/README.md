@@ -20,5 +20,37 @@ contoh di file :
 strategi sharing database:
 - database lama di refactor untuk app baru, entah tambah kolom aja atau tambah tabel juga
 - jadi 1 database bisa di pakai 2 app, baru & lama
+
 contoh di file :
 - [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
+
+## SKENARIO 3
+
+- Database lama menggunakan **MySQL**.
+- Database baru menggunakan **PostgreSQL**.
+- Aplikasi baru mengambil data lama melalui **API dari aplikasi lama**.
+
+Alurnya:
+
+1. User meminta data lama di **aplikasi baru**.
+2. Aplikasi baru meminta data lama tersebut ke **API aplikasi lama**.
+3. Aplikasi lama melakukan query ke **database lama (MySQL)**.
+4. Data lama dari database lama dikirim kembali ke aplikasi baru melalui API.
+5. Aplikasi baru menyimpan data tersebut ke **database baru (PostgreSQL)**.
+6. Setelah itu, data ditampilkan ke user.
+
+Jadi sederhananya:
+
+**User → App Baru → API App Lama → DB Lama → App Lama → App Baru → DB Baru → User**
+
+Dengan cara ini, data lama **dipindahkan sedikit demi sedikit saat data tersebut dibutuhkan**.
+
+*note : skenario ini dilakukan jika ada data yang di hashing
+
+contoh di file :
+- [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
+
+
+
+## SOURCE
+- [https://www.youtube.com/watch?v=dj9etrhib64](https://www.youtube.com/watch?v=dj9etrhib64)
