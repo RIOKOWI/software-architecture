@@ -50,6 +50,17 @@ Dengan cara ini, data lama **dipindahkan sedikit demi sedikit saat data tersebut
 contoh di file :
 - [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
 
+## SKENARIO 4
+- migrasi semua data dari db lama ke db baru menggunakan data pipeline KALAU SANGGUP
+- butuh bantuan tim data pipeline
+contoh di file :
+- [data-migration\data-migration.excalidraw.png](data-migration\data-migration.excalidraw.png)
+
+## RECOMENDATION
+- SKENARIO 4(kalau sanggup) + butuh bantuan tim data pipeline
+- SKENARIO 3(kalau sanggup)
+- SKENARIO 2(kalau sanggup)
+- SKENARIO 1(kalau sanggup)
 
 
 ## SOURCE
