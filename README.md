@@ -31,7 +31,7 @@
 - Aplikasi yang menggunakan Monolithic Architecture akan sangat cepat dibuat dan didistribusikan
 
 contoh gambar :
-[MONOLITHIC](software-architecture-v2/MONOLITHIC.excalidraw.png)
+[MONOLITHIC](system-design/MONOLITHIC.excalidraw.png)
 
 
 ## Distributed Architecture
@@ -40,7 +40,7 @@ contoh gambar :
 - Pengembangan Distributed Architecture memang lebih kompleks dibandingkan dengan Monolithic Architecture, namun menawarkan keuntungan seperti toleransi kesalahan (fault tolerance), misal ketika ada satu Service gagal, Service lain masih bisa berjalan dengan normal
 
 contoh gambar :
-(DISTRIBUTED)[software-architecture-v2/DISTRIBUTED.excalidraw]
+(DISTRIBUTED)[system-design/DISTRIBUTED.excalidraw]
 
 ## Pilih yang Mana?
 - Pada saat pembuatan aplikasi, kadang kita bingung menentukan harus menggunakan arsitektur Monolithic atau Distributed
@@ -72,7 +72,7 @@ contoh gambar :
 * note : layer layer di atas tidak baku, boleh aja tambah layer lagi seperti service layer, api layer, dll
 
 contoh gambar :
-[TECHNICAL PARTIONING](software-architecture-v2/TECHNICAL-PARTIONING.excalidraw.png)
+[TECHNICAL PARTIONING](system-design/TECHNICAL-PARTIONING.excalidraw.png)
 
 
 ## Domain Partitioning
@@ -81,7 +81,7 @@ contoh gambar :
 - Partisi system berdasarkan Domain, populer sejak dikenalkan dalam buku berjudul “Domain Driven Design” karya Eric Evans.
 
 contoh gambar :
-[DOMAIN PARTIONING](software-architecture-v2/DOMAIN-PARTIONING.excalidraw.png)
+[DOMAIN PARTIONING](system-design/DOMAIN-PARTIONING.excalidraw.png)
 
 ## Pilih yang Mana?
 - Technical ataupun Domain Partitioning memiliki kelebihan dan kekurangan, namun secara pribadi saya rekomendasikan gunakan :
@@ -108,7 +108,7 @@ inti :
 - Rata-rata banyak yang membagi menjadi 4 layer, Presentation Layer, Business Layer, Persistence Layer dan Database Layer. Namun tidak menutup kemungkinan bisa lebih banyak layer ketika aplikasi sangat kompleks contoh ada meessage broker tambahin producer layer
 
 contoh gambar :
-[LAYERED-ARCHITECTURE](software-architecture-v2/LAYERED-ARCHITECTURE.excalidraw.png)
+[LAYERED-ARCHITECTURE](system-design/LAYERED-ARCHITECTURE.excalidraw.png)
 
 ## Tugas Tiap Layer
 
@@ -128,7 +128,7 @@ contoh gambar :
 - Misal kita ingin menampilkan halaman Product, namu di dalam halaman Product kita juga ingin menampilkan data Seller nya
 - Maka kita bisa buat alur aplikasi seperti pada diagram selanjutnya
 
-[FLOW LAYERED ARCH](software-architecture-v2/FLOW-LAYERED-ARCH.excalidraw.png)
+[FLOW LAYERED ARCH](system-design/FLOW-LAYERED-ARCH.excalidraw.png)
 
 
 ## Pertimbangan
@@ -147,7 +147,7 @@ contoh gambar :
 - dalam MVC pusat interaksi antar layer biasanya dilakukan oleh Controller
 
 contoh gambar :
-[MVC ARCH](software-architecture-v2/MVC-ARCH.excalidraw.png)
+[MVC ARCH](system-design/MVC-ARCH.excalidraw.png)
 
 ## Tugas Tiap Layer
 
@@ -164,7 +164,7 @@ contoh gambar :
 - Misal kita memiliki web, dimana terdapat satu halaman web yang perlu untuk menampilkan data wishlist. Pada halaman itu, selain data wishlist, kita juga harus menampilkan detail product yang terdapat di wishlist tersebut
 
 contoh gambar :
-[MVC LAYERED](software-architecture-v2/MVC-LAYERED.excalidraw.png)
+[MVC LAYERED](system-design/MVC-LAYERED.excalidraw.png)
 
 ## Pertimbangan
 
@@ -185,7 +185,7 @@ contoh gambar :
 - Hexagonal Architecture juga dikenal dengan Port & Adapter Architecture
 
 contoh gambar : 
-[HEXAGONAL ARCH](software-architecture-v2/HEXAGONAL-ARCH.excalidraw.png)
+[HEXAGONAL ARCH](system-design/HEXAGONAL-ARCH.excalidraw.png)
 
 ## Port dan Adapter
 
@@ -194,7 +194,7 @@ contoh gambar :
 - Adapter merupakan bagian yang berinteraksi langsung melalui Port, dan menggunakan teknologi yang sudah ditentukan
 
 contoh gambar :
-[HEXAGONAL DETAIL ARCH](software-architecture-v2/HEXAGONAL-DETAIL-ARCH.excalidraw.png)
+[HEXAGONAL DETAIL ARCH](system-design/HEXAGONAL-DETAIL-ARCH.excalidraw.png)
 
 
 ## Application Layer
@@ -205,7 +205,7 @@ contoh gambar :
 - Bagian Driven, biasanya disebut Infrastructure / Data Source / External Interfaces, yaitu target data keluar dari aplikasi
 
 contoh gambar :
-[DETAILING HEXAGONAL](software-architecture-v2/DETAILING-HEXAGONAL.excalidraw.png)
+[DETAILING HEXAGONAL](system-design/DETAILING-HEXAGONAL.excalidraw.png)
 
 
 ## Clean Architecture
@@ -223,7 +223,7 @@ contoh gambar :
 - Dimana saat melakukan pembayaran, data pembayaran selain disimpan di database, akan dikirim ke Payment Gateway
 
 contoh gambar :
-[HEXAGONAL ARCH EXAMPLE](software-architecture-v2/HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
+[HEXAGONAL ARCH EXAMPLE](system-design/HEXAGONAL-ARCH-EXAMPLE.excalidraw.png)
 
 ## Pertimbangan
 - Hexagonal Architecture merupakan salah satu arsitektur yang bagus digunakan ketika kita akan membuat aplikasi yang kompleks dan agar aplikasinya technology agnostic sehingga mudah diganti-ganti
@@ -244,7 +244,7 @@ contoh gambar :
 - Microkernel Architecture sangat banyak digunakan pada aplikasi berbasis desktop biasanya, contoh seperti Visual Studio, Eclipse, dan lain-lain, dimana ada banyak sekali extension atau plug-in yang tersedia untuk aplikasi tersebut
 
 contoh gambar :
-[MICROKERNEL-ARCH.excalidraw](software-architecture-v2/MICROKERNEL-ARCH.excalidraw.png)
+[MICROKERNEL-ARCH.excalidraw](system-design/MICROKERNEL-ARCH.excalidraw.png)
 
 
 ## Topology
@@ -273,7 +273,7 @@ contoh gambar :
 * note : arch ini masuk kategori distributed arch
 
 contoh gambar :
-[CLIENT SERVER](software-architecture-v2/CLIENT-SERVER-ARCH.excalidraw.png)
+[CLIENT SERVER](system-design/CLIENT-SERVER-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -283,7 +283,7 @@ contoh gambar :
 
 contoh gambar :
 
-[CLIENTS SERVER](software-architecture-v2/CLIENTS-SERVER.excalidraw.png)
+[CLIENTS SERVER](system-design/CLIENTS-SERVER.excalidraw.png)
 
 
 ## Contoh
@@ -307,7 +307,7 @@ contoh gambar :
 
 contoh gambar :
 
-[MASTER SLAVE ARCH](software-architecture-v2/MASTER-SLAVE-ARCH.excalidraw.png)
+[MASTER SLAVE ARCH](system-design/MASTER-SLAVE-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -323,7 +323,7 @@ contoh gambar :
 - Begitu juga ketika terjadi masalah yang menyebabkan aplikasi Master mati, maka secara otomatis salah satu Slave akan dipromosikan menjadi Master baru
 
 contoh gambar :
-[FAULT TOLERANCE](software-architecture-v2/FAULT-TOLERANCE.excalidraw.png)
+[FAULT TOLERANCE](system-design/FAULT-TOLERANCE.excalidraw.png)
 
 ## Master-Master Architecture
 
@@ -333,7 +333,7 @@ contoh gambar :
 - Dan karena semua aplikasi adalah Master, tiap aplikasi bisa saja mengirim request ke aplikasi lain, ketika misal aplikasi sudah terlalu banyak menangani request dari pengguna
 
 contoh gambar :
-[MASTER MASTER ARCH](software-architecture-v2/MASTER-MASTER-ARCH.excalidraw.png)
+[MASTER MASTER ARCH](system-design/MASTER-MASTER-ARCH.excalidraw.png)
 
 ## Replication
 
@@ -356,7 +356,7 @@ contoh gambar :
 - Biasanya logika aplikasi akan terpusat di aplikasi Server, pada Peer-to-Peer, logika aplikasi tidak terpusat di satu aplikasi, semua aplikasi bisa menjadi Server sekaligus Client
 
 contoh gambar :
-[PEER2PEER ARCH](software-architecture-v2/PEER-2-PEER-ARCH.excalidraw.png)
+[PEER2PEER ARCH](system-design/PEER-2-PEER-ARCH.excalidraw.png)
 
 
 ## Topology
@@ -394,7 +394,7 @@ contoh gambar :
 - Pada arsitektur ini, tidak aneh jika sebuah system memiliki ratusan bahkan ribuan Service mandiri, hal ini karena tiap Service memang memiliki tugas masing-masing
 
 contoh gambar :
-[MICROSERVICE](software-architecture-v2/MICROSERVICE-ARCH.excalidraw.png)
+[MICROSERVICE](system-design/MICROSERVICE-ARCH.excalidraw.png)
 
 ## Topology
 
@@ -412,7 +412,7 @@ contoh gambar :
 
 contoh gambar :
 
-[BOUNDED CONTEXT](software-architecture-v2/BOUNDED-CONTEXT.excalidraw.png)
+[BOUNDED CONTEXT](system-design/BOUNDED-CONTEXT.excalidraw.png)
 
 
 ## Komunikasi Antar Service
@@ -428,7 +428,7 @@ contoh gambar :
 
 
 contoh gambar :
-[COMMUNCATION SERVICES](software-architecture-v2/COMMUNCATION-SERVICES.excalidraw.png)
+[COMMUNCATION SERVICES](system-design/COMMUNCATION-SERVICES.excalidraw.png)
 
 
 ## Pendukung
@@ -460,7 +460,7 @@ contoh gambar :
 - Penerima data Event kita sebut dengan nama Consumer/Listener
 
 contoh gambar :
-[EVENT DRIVEN](software-architecture-v2/EVENT-DRIVEN-ARCH.excalidraw.png)
+[EVENT DRIVEN](system-design/EVENT-DRIVEN-ARCH.excalidraw.png)
 
 ## Duplicate Data
 - Seperti yang sudah kita tahu, dalam Microservices Architecture terdapat aturan Bounded Context, dimana data hanya bisa diakses oleh Service itu sendiri
@@ -470,7 +470,7 @@ contoh gambar :
 * note: jika add data cuma untuk id & nama seller yang di duplikat ya cuma 2 itu aja
 
 contoh gambar :
-[EVENT DRIVEN ASYNC](software-architecture-v2/EVENT-DRIVEN-ASYNC.excalidraw.png)
+[EVENT DRIVEN ASYNC](system-design/EVENT-DRIVEN-ASYNC.excalidraw.png)
 
 
 ## Pertimbangan
@@ -489,7 +489,7 @@ contoh gambar :
 - Pipeline Architecture adalah arsitektur dimana kita memanfaatkan Message Queue seperti Message Broker sebagai tempat aliran data, dan kita bisa fokus membuat Filter untuk memproses data tersebut
 
 contoh gambar :
-[PIPELINE ARCH](software-architecture-v2/PIPELINE-ARCH.excalidraw.png)
+[PIPELINE ARCH](system-design/PIPELINE-ARCH.excalidraw.png)
 
 
 ## Topology
@@ -507,7 +507,7 @@ contoh gambar :
 
 
 contoh gambar :
-[PIPELINE CLOUD FUNCTION](software-architecture-v2/PIPELINE-CLOUD-FUNCTION.excalidraw.png)
+[PIPELINE CLOUD FUNCTION](system-design/PIPELINE-CLOUD-FUNCTION.excalidraw.png)
 
 
 ## Data Pipeline
@@ -515,7 +515,7 @@ contoh gambar :
 - Dalam Data Pipeline, biasanya terdapat Source (sumber data), Destination (tujuan akhir data), dan juga Processing (pengolahan data)
 
 contoh gambar :
-[DATA PIPELINE](software-architecture-v2/DATA-PIPELINE.excalidraw.png)
+[DATA PIPELINE](system-design/DATA-PIPELINE.excalidraw.png)
 
 
 ## Contoh
@@ -525,7 +525,7 @@ contoh gambar :
 
 
 contoh gambar :
-[PIPELINE STUDY CASE](software-architecture-v2/PIPELINE-STUDY-CASE.excalidraw.png)
+[PIPELINE STUDY CASE](system-design/PIPELINE-STUDY-CASE.excalidraw.png)
 
 
 ## Pertimbangan
@@ -543,7 +543,7 @@ contoh gambar :
 
 contoh gambar :
 
-[TRIANGLE SHAPED](software-architecture-v2/TRIANGLE-SHAPED-ARCH.excalidraw.png)
+[TRIANGLE SHAPED](system-design/TRIANGLE-SHAPED-ARCH.excalidraw.png)
 
 ## Triangle-Shaped Topology
 
@@ -559,7 +559,7 @@ contoh gambar :
 - High Scalability dicapai dengan cara semua aplikasi terkoneksi ke shared-memory (Data Grid) secara synchronous, dan secara asynchronous data di shared-memory akan di sync ke database
 
 contoh gambar :
-[SPACE BASED ARCH](software-architecture-v2/SPACE-BASED-ARCH.excalidraw.png)
+[SPACE BASED ARCH](system-design/SPACE-BASED-ARCH.excalidraw.png)
 
 ## Topology
 - Dalam Spaced-Based Architecture, aplikasi yang kita buat disebut dengan Processing Unit
