@@ -30,3 +30,32 @@ contoh di file
 - [software-architecture\message-broker.excalidraw.png](software-architecture\message-broker.excalidraw.png)
 
 
+# SERVICE DISCOVERY
+## STUDY CASE
+- ada 3 service : shoping cart service, order service, payment service
+- pada suatu saat aplikasi order service lemot/lambat sekali, nah bisa juga dengan menambah 3 order service lagi untuk mengatasinya. proxy server(nginx dll) yang akan mendistribusikan ke 3 order service
+- nah misal payment service jadi lambat juga, ya sama dengan mengatasi order service yang lemot dengan cara menambah 2 payment service lalu order service di distribusikan via proxy server -> 2 payment service
+- tetapi aplikasi lama kelamaan lemot nah secara tidak sadar semua request masuk ke proxy server, dan jika proxy server mati semua service juga akan terganggu 
+- nah gimana kalo kita menambah proxy server yang menghandle tiap service?, nah kalo 1 proxy server mati service yang di handle oleh proxy server tersebut tidak akan jalan
+- nah gimana kalo tiap service punya 2 proxy server? bagaimana nanti kedepannya ada service lain dan banyak node tiap service? nambah 10++ proxy server dan ubah konfigurasi secara manual? boros & ribet
+- jawaban nya pakai SERVICE DISCOVERY
+
+## SERVICE DISCOVERY
+- Service discovery adalah mekanisme dalam arsitektur software untuk mencari tahu service lain berada di mana dan bagaimana cara menghubunginya.
+- untuk implemen service discovery harus implemen aplikasi service registry(consul, eureka dll). service registry itu akan menyimpan semua list lokasi semua service dan semua endpoint endpoint service nya
+
+## KEUNTUNGAN
+- gimana kalo 1 node service mati 
+- jadi di service registry ada fitur yang namanya healtch check yang biasanya service registry tiap 5-10 detik mengharuskan cek tiap semua node service secara berkala. 
+- jika service resgistry tidak mendapatkan response semestinya maka service registry akan menandai service tersebut bermasalah dengan begitu service registry akan mengembalikan node/service yang sehat ke service lain yang ingin mengakses. 
+- jadi jika ada service bermasalah, service lain tidak di berikan request oleh service registry
+
+## TANTANGAN
+- jadi jika ada 10 request dari client, service registry harus bisa mendistribusikan 10 request tersebut
+- harus implemen client load balancer pada service
+
+## SOURCE
+- [https://www.youtube.com/watch?v=rt2MWGNu7m8&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=2](https://www.youtube.com/watch?v=rt2MWGNu7m8&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=2)
+
+contoh di file
+- [software-architecture\service-directory.excalidraw.png](software-architecture\service-directory.excalidraw.png)
