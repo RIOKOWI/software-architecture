@@ -122,3 +122,36 @@ contoh di file
 
 contoh di file
 - [software-architecture\database-scaling.excalidraw.png](software-architecture\database-scaling.excalidraw.png)
+
+
+# API GATEWAY
+## STUDY CASE
+inventory case :
+- disuruh bikin app,web,desktop system yang bisa integrasi third party 
+- kita develop backend dan client jika ingin akses fitur via app/web harus connect ke backend kita
+- tetapi bayangkan jika bukan 1 aplikasi saja bayangkan 5 - 100 app
+- gimana caranya mengakses lebih dari 1 sistem, biasanya kita bedakan jenis aplikasi dari url/endpointnya, contoh :
+```json
+api.resbob.com/inventory
+api.resbob.com/payroll
+api.resbob.com/sales
+api.resbob.com/......
+dst..
+```
+- gimana caranya app kita bisa akses beda beda endpoint backend? biasanya di tengah tengah antara app dan aplikasi backend di pasang proxy server(nginx, dll), tujuan nya untuk merouting url yang sudah di tentukan ke service yang di tuju
+- secara tidak sadar contoh implemen di atas adalah konsep API GATEWAY(proxy server), jarang juga bikin api gateway untuk proxy server doang biasanya untuk centralized authentication
+- jadi authentication di buat centralized di api gateway karena agar client bisa akses dari berbagai jenis app, web, desktop dengan auth yang berbeda beda(Oauth, web session, basic auth)
+- nah di api gateway juga terjadi authorization atau pembagian role bisa akses aplikasi apa aja contoh admin bisa akses aplikasi finance dan customer cuma boleh akses aplikasi e commerce
+- api gateway juga bisa di implemen rate limiter, misal ada lebih dari 2 request di 1 service api gateway akan menolak request tersebut. intinya bisa membatasi request
+- api gateway juga bisa menjadi api orchestrator jadi dia bisa get data ke lebih dari 1 service sekaligus
+- api gateway juga bisa menjadi standart api yaitu bisa mentranslate data kebeberapa jenis data(soap, xml, rcp, json) untuk tiap service
+- api gateway juga bisa menjadi backend for front end yaitu dia bisa mengembalikan data yang dibutuhkan saja ke client yang berbeda beda (mobile, web, desktop, third party, dll) jadi harus membuat 3 api gateway. ada alternatif jika tidak mau membuat 3 api gateway dengan cara implemen graph ql
+
+## KEKURANGAN
+- jadi lebih lambat(1/2second) response time nya, karna menambah layer api gateway yang sebelumnya langsung ke service
+
+## SOURCE
+- [https://www.youtube.com/watch?v=aZWbBcgS16s&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=5](https://www.youtube.com/watch?v=aZWbBcgS16s&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=5)
+
+contoh di file
+- [software-architecture\api-gateway.excalidraw.png](software-architecture\api-gateway.excalidraw.png)
