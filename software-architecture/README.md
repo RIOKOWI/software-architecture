@@ -169,6 +169,37 @@ contoh di file
 - pada dasar nya sistem i/o atau input output secara synchronous jadi kalo kita bikin 100 thread 100 thread itu harus di kerjakan secara berurutan 
 - nah di sini implementasi teknologi non blocking yang bisa menerima request sebanyak apapun
 
+## REACTIVEX
+- reactivex adalah membeda bedakan worker pada tiap proses/service yang kita inginkan
+- jadi jika ada salah satu fitur yang sibuk fitur lain tidak kena impact nya
+
+## SPLIT APLIKASI
+- kita gak perlu scale 1 aplikasi bulat bulat, mungkin cukup 1-2 fitur aja yang sudah saatnya di scale contoh di e commerce yang utama di scaling adalah fitur search product nya
+- daripada ribet scale/refactor 1 apk ke non blocking & reactivex lebih baik split aplikasi nya yang low traffic tetap yang high traffic keluarin dan di bikin apk baru di scale bebas mau non blocking atau reactivex yang mana akan lebih mudah untuk scale 1 per 1 fitur dari pada langsung 1 aplikasi
+
+## DATABASE SCALING
+- sebenernya investigasi dulu masalah nya di apk atau database, kalo gak ada masalah di apk ngapain kita scaling apk nya
+- rata rata biasanya bottleneck nya ada di database nya(query lambat, n+1, dll) lebih baik scaling database nya
+
+## GUNAKAN TOOL BANTUAN
+- beberapa teknologi di ciptakan tidak siap by default production tetapi development, jadi pastiin dulu set up aplikasi kita dalam mode production
+
+## OPTIMIZE CODE
+- saat awal development pasti code kita belum optimize karna mengejar mvp, seiring berjalan nya waktu kita wajib optimize code
+- cara cek nya dari monitoring aplikasi kita by reponse time api or method
+- konsekuensi code optimize, code nya tidak readable
+
+## AGGRESIVE CACHING
+- jika aplikasi lambat usahakan caching terlebih dahulu
+- misal query ke db lambat, dll
+- setelah ambil data ke db hasilnya kita cache di ram atau in memory database(redis)
+
+
+## GA USAH DIPIKIRIN
+- kejar mvp dulu/deliver app dulu
+- setelah user banyak baru scaling
+
+
 ## SOURCE
 - [https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6](https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6)
 
