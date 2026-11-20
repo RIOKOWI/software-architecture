@@ -155,3 +155,22 @@ dst..
 
 contoh di file
 - [software-architecture\api-gateway.excalidraw.png](software-architecture\api-gateway.excalidraw.png)
+
+
+# APPLICATION SCALING
+## SCALING VERTICAL
+- scaling dengan cara meng upgrade hardware aplikasi
+
+## SCALING HORIZONTAL
+- tinggal menambah node dan menambah load balancer di tengah tengah
+- tetapi aplikasi kita haru stateless yaitu kita tidak boleh menyimpan data dalam aplikasi/state di usahakan simpan data ke dalam database agar data nya konsisten pada tiap node
+
+## NON-BLOCKING
+- pada dasar nya sistem i/o atau input output secara synchronous jadi kalo kita bikin 100 thread 100 thread itu harus di kerjakan secara berurutan 
+- nah di sini implementasi teknologi non blocking yang bisa menerima request sebanyak apapun
+
+## SOURCE
+- [https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6](https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6)
+
+contoh di file
+- [software-architecture\application-scaling.excalidraw.png](software-architecture\application-scaling.excalidraw.png)
