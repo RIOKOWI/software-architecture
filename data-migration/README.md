@@ -58,9 +58,9 @@ contoh di file :
 
 ## RECOMENDATION
 - SKENARIO 4(kalau sanggup) + butuh bantuan tim data pipeline
-- SKENARIO 3(kalau sanggup)
-- SKENARIO 2(kalau sanggup)
-- SKENARIO 1(kalau sanggup)
+- SKENARIO 3(butuh waktu lama untuk pindah dari db old ke new via app)
+- SKENARIO 2(kalau masih bisa di scale kolom dalam tabel)
+- SKENARIO 1(paling easy)
 
 
 ## SOURCE

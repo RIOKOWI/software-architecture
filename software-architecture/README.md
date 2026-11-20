@@ -96,3 +96,29 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiUmlvIiwicm9sZSI
 
 contoh di file
 - [software-architecture\jwt.excalidraw.png](software-architecture\jwt.excalidraw.png)
+
+
+
+# DATABASE SCALING
+## DATABASE SCALING
+- saat data kita sudah menyentuh gb dan tb aplikasi kita sudah mulai lemot
+- udah saatnya lakuin database scaling
+
+## VERTICAL SCALING
+- solusi sedererhana cukup upgrade hardware nya contoh upgrade storage, ram, cpu. itu solusi pertama kali, cuma biasanya hardware ada limit nya dan price hardwarenya mahal
+
+## HORIZONTAL SCALING
+- sama, beli hardware dengan spek hardware yang sama lalu tambah node
+- yang tadinya data nya di simpan di 1 server sekarang di simpan di lebih dari 1 server
+- untuk menyebar input data ke lebih dari 1 server gunakan routing yang dimana primary key 1 data di modulo% dengan jumlah node/server
+- gimana kalo searching data? ya kita harus search ke semua partisi atau server
+- gimana kalo paging? kita mengambil 20 data dari tiap server lalu jumlah nya di sorting agar datanya sesuai
+- solusi untuk deep paging problem adalah implementasi kriteria rentang waktu
+- untuk mengatasi 1 server mati dan gak bisa get data dari server tersebut gunakan teknik replication. tetapi kekurangannya sebelum replication data nya cuma 1 tb setelah replication akan x2 atau 2 tb
+- caching: setelah kita mendapatkan data pertama kali setalahnya data di simpan di ram yang mengakibatkan get data sangat cepat(recommendation before implement vertical & horizontal scaling)
+
+## SOURCE
+- [https://www.youtube.com/watch?v=wH5LZ6ALxpw&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=4](https://www.youtube.com/watch?v=wH5LZ6ALxpw&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=4)
+
+contoh di file
+- [software-architecture\database-scaling.excalidraw.png](software-architecture\database-scaling.excalidraw.png)
