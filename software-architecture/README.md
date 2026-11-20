@@ -59,3 +59,40 @@ contoh di file
 
 contoh di file
 - [software-architecture\service-directory.excalidraw.png](software-architecture\service-directory.excalidraw.png)
+
+
+# JSON WEB TOKEN
+## STUDY CASE
+- toko online
+- sebelum kita akses semua fitur/service kita wajib akses session/auth service dan menghasilkan cookies, nah cookies tersebut untuk mengakses fitur/service yang tersedia di web.
+- konsekuensi nya app/web ketergantungan dengan session service yang mengakibatkan jika session service lambat/gangguan semua service akan terganggu juga
+- gimana kalo cookies nya di simpan di database(mysql, redis, dll)? tentu bisa cepat, tapi tidak scalable dan ribet jika ingin mengubah column database nantinya 
+- JSON WEB TOKEN/JWT adalah solusi dari kedua masalah metode tersebut, gak perlu nembak service gak perlu cek database dan mudah di implemen
+
+## JSON WEB TOKEN
+- jwt itu standar spesifikasi
+- di rekomendasikan pake library yang sudah di sediakan contoh dari laravel gunakan sanctum
+- jwt adalah metode pertukaran data antara 2 belah pihak secara aman
+- token? token adalah semacam identitas/id
+- token di jwt terdiri dari 3 bagian(header, payload & signature) di pisahkan oleh titik kalo di lihat seperti random string
+```json
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiUmlvIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzAwMDAwMDAwLCJleHAiOjE3MDAwMDM2MDB9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 adalah header
+# eyJzdWIiOiIxMjMiLCJuYW1lIjoiUmlvIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzAwMDAwMDAwLCJleHAiOjE3MDAwMDM2MDB9 adalah payload yang berisi data data umum user seperti name dan email
+# SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c adalah siganture gabungan dari hashing dari base64 header dan base64 payload dan disisipkan oleh secret key
+# ketiga bagian tersebut dipisahkan oleh .
+```
+
+- jadi flow nya : user login -> dapet jwt -> pakai jwt tersebut untuk akses service service lain
+
+## KEKURANGAN
+- tiap service harus hashing algoritma yang sudah di tentukan
+- semakin berat algoritma yang di gunakan semakin besar cpu yang di pakai
+- solusinya jangan gunakan algoritma yang berat
+
+## SOURCE
+- [https://www.youtube.com/watch?v=_w9ixlwUsgg&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=3](https://www.youtube.com/watch?v=_w9ixlwUsgg&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=3)
+
+contoh di file
+- [software-architecture\jwt.excalidraw.png](software-architecture\jwt.excalidraw.png)
