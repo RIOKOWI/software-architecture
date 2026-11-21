@@ -194,14 +194,36 @@ contoh di file
 - misal query ke db lambat, dll
 - setelah ambil data ke db hasilnya kita cache di ram atau in memory database(redis)
 
-
 ## GA USAH DIPIKIRIN
 - kejar mvp dulu/deliver app dulu
 - setelah user banyak baru scaling
-
 
 ## SOURCE
 - [https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6](https://www.youtube.com/watch?v=quWvEH-xp3w&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=6)
 
 contoh di file
 - [software-architecture\application-scaling.excalidraw.png](software-architecture\application-scaling.excalidraw.png)
+
+
+# CACHING
+## CACHING
+- caching adalah menyimpan data di tempat sementara/ram
+- kenapa kita butuh nyimpan data sementara di ram? karena proses mengambil data dari ram dibanding harddisk jauh lebih cepat menggunakan ram
+- ketika ada request pertama masuk, aplikasi akan mengambil data ke dalam database yang datanya sangat banyak dan lambat nah ketika data nya balik lalu kita simpan ke dalam apk ram jika ada request kedua yang sama aplikasi akan kembalikan data sementara yang ada di ram
+- untuk di industri yang memakai lebih dari 1 node apk strategi caching nya akan berbeda, yaitu dengan menyimpan di memory databse(redis, memcache, dll)
+- jika ada perubahan data pada app lain dan db lain berarti data di memory db(redis) sudah tidak valid, cara mengatasi nya dengan implement time to live/ttl bebas mau set 10 detik atau berapa setlah 10 detik data yang ada di redis akan di delete
+- kita tahu bahwa penyimpanan di ram itu kecil, gimana cara kita data yang di cache di ram tidak melebih kapasitas ram, jadi kita harus implement delete data yang sudah di cache di ram
+- ada 2 cara delete(oldest data, oldest access)
+- oldest data aksess itu mendelete data yang paling lama, contoh ada data 1,2,3,4,5,6 di ram yang penuh nah redis akan menghapus data ke 1 jika ada cache selanjutnya(7) yang masuk
+- oldest acces itu mendelete data yang lama gak di akses pada ram, contoh ada data cache 1,2,3,4,5,6 nah yang gak pernah di gunain/akses oleh user tuh data 3,4 berarti redis akan menghapus data 3,4 dan menggantinya dengan data yang baru
+- gimana cara implement delete? redis mempunyai kemampuan itu, jadi ketika redis tahu jika data sudah sampai batas kapasitas ram, redis akan delere data oldest data/oldeest access
+- rekomendasi implement delete oldest access
+- data apa ynag bisa kita cache? semua database cache punya key-value atau id-row/tabel
+- jadi gak semua query(search) bisa di cache
+- sebelum kita implemen cache di apk kita, kita harus mastiin database kita punya fitur cache atau tidak
+
+## SOURCE
+- [https://www.youtube.com/watch?v=GOlj04KHxxg&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=7](https://www.youtube.com/watch?v=GOlj04KHxxg&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=7)
+
+contoh di file
+- [software-architecture\caching.excalidraw.png](software-architecture\caching.excalidraw.png)
