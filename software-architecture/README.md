@@ -227,3 +227,40 @@ contoh di file
 
 contoh di file
 - [software-architecture\caching.excalidraw.png](software-architecture\caching.excalidraw.png)
+
+
+# INTEGRATE BETWEEN APP
+- cara menggabungkan lebih dari 1 app menjadi terintegrasi
+
+## SHARING FILE
+- contoh ada sistem penjualan cabang yang tidak terintegrasi dengan pusatnya
+- jadi app pusat tidak mungkin expose data nya ke internet, hanya menggunakan network internal
+- jadi app lain/cabang tiap hari akan generate file
+- lalu file tersebut di upload via email dan di pakai/konsum oleh app pusat
+
+## SHARING DATABASE
+- 1 company punya legacy sistem yang sudah nyaman dan takut untuk otak atik sistem yang sudah ada
+- solusinya membuat app baru dengan akses ke database yang sama/database sharing
+- problemnya harus pastikan tidak ada perubahan ke struktur database yang sudahh ada karna takut nantinya nge break/problem aplikasi legacy yang sudah jalan/ada
+
+## REMOTE PROCEDURAL INVOCATION/API
+- sederhana nya sistem pemilik data akan membuat api dan nanti akan di panggil aplikasi yang membutuhkan datanya
+- cara ini adalah cara umum(RESTful API)
+- gimana kalo legacy sistem tidak mau di otak atik?, gampang tinggal membuat app baru yang terintegasi dengan database yang sama lalu di buat api
+
+## MESSAGING
+- cara sebelumnya kan blocking problem nya kalo apk pertama lambat apk kita juga akan lambat
+- solusinya implementasi messaging
+- intinya kalo kita mau mengirim data dari app a ke app b tinggal kirim message dari app a ke message broker, nanti app b akan mengambil message nya ke message broker 
+- problem nya semua proses synchronous akan menjadi asynchronous(fire & forget)
+
+## REKOMENDASI
+- implemen yang API dulu
+- kalo udah rumit migrasi dikit dikit ke messaging
+
+
+## SOURCE
+- [https://www.youtube.com/watch?v=F2C5ixzfNLY&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=8](https://www.youtube.com/watch?v=F2C5ixzfNLY&list=PL-CtdCApEFH_-3qaCDJyZnU1U7z_kzrsQ&index=8)
+
+contoh di file
+- [software-architecture\integrate-app.excalidraw.png](software-architecture\integrate-app.excalidraw.png)
