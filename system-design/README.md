@@ -32,3 +32,18 @@
 [https://www.youtube.com/watch?v=koZXdinR8jg&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=4](https://www.youtube.com/watch?v=koZXdinR8jg&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=4)
 
 ---
+
+# HUBUNGAN JWT DENGAN OAUTH
+- tidak ada hubunngannya jwt dengan oauth
+- oauth itu aturan main untuk authentication & authorization yang mengharuskan implemen access token + refresh token
+- jwt untuk pertukaran data antara 2 pihak apakah token ini benar atau tidak, sehingga 1 app tidak perlu verifikasi token/random string lagi ke authorization server
+- keduanya di implemen atau di hubungkan antara jwt dan oauth untuk mengurangi request/validasi antara authorization server dan resource server
+- informasi di jwt bisa di decode dengan mudah tetapi signature nya tidak bisa di duplikat atau dibuat manual hanya body nya saja yang rawan, makanya jangan selipkan payload sensitif di body jwt
+
+- contoh gambar :
+[system-design\JWT-OAUTH.excalidraw.png](system-design\JWT-OAUTH.excalidraw.png)
+
+## SOURCE 
+[https://www.youtube.com/watch?v=0rwwXecwuj8&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=2](https://www.youtube.com/watch?v=0rwwXecwuj8&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=2)
+
+---
