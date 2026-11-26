@@ -47,3 +47,25 @@
 [https://www.youtube.com/watch?v=0rwwXecwuj8&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=2](https://www.youtube.com/watch?v=0rwwXecwuj8&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=2)
 
 ---
+
+
+# BIAR APLIKASI GAK DOWN DI KUBERNETES
+- pakai fitur horizontal pod auto scaler, intinya aplikasi kita boleh jalan/bertambah secara horizontal dengan konfigurasi cpu/ram yang di tentukan
+- jika cpu/ram menyentuh 80% kita bisa trigger fitur horizontal pod auto scaler
+- kita juga harus siapin hardware yang ingin kita scale max, misal kalo max ram set 10 ya kita harus siapin hardware ram 10
+- kalo kubernetes crash otomatis akan restart selama 1-2 menit makanya minimal aplikasi harus di nyalain 2 jika salah 1 mati tidak akan crash
+- sebelum implemen auto scale, lakukan performance testing untuk menguji kesanggupan aplikasi menerima seberapa banyak request/second aplikasi kita
+- jadi perkiraan request dibagi dengan performa request aplikasi kita per second = jumlah pod max yang kita set
+- startup time = waktu yang di perlukan aplikasi untuk menerima request pertama kali
+- semakin lambat aplikasi kita startup time semakin bahaya
+- solusinya set cpu sama ram nya di kecilin sehingga saat sudah menyentuh kapaitas pod baru prepare buat startup time untuk menerima request baru, karna butuh 1 menitan untuk bikin pod baru
+- jika request melebihi ekspetasi kita ya korbankan saja dengan implemen rate limiter agar app kita gak mati di banjiri kelebihan request di luar ekspetasi kita
+- jangan serakah menerima request
+
+- contoh gambar :
+[system-design\SCALE-KUBERNETES.excalidraw.png](system-design\SCALE-KUBERNETES.excalidraw.png)
+
+## SOURCE 
+[https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3](https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3)
+
+---
