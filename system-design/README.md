@@ -69,3 +69,19 @@
 [https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3](https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3)
 
 ---
+
+# BEFORE MIGRATION INTO MICROSERVICES
+- saat develop awal di sarankan monolith
+- optimasi monolith
+- lalu ke CQRS
+- lalu ke microservices
+- microservices di implement karna non teknis, project terlalu besar, tim sudah banyak, timeline project berbeda beda, ownership project, dll.
+
+
+- contoh gambar :
+[system-design\BEFORE-MICROSERVICES.excalidraw.png](system-design\BEFORE-MICROSERVICES.excalidraw.png)
+
+## SOURCE 
+[https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3](https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3)
+
+---
