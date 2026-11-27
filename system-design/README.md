@@ -128,6 +128,10 @@
 - kalo data sudah sampe ukuran/waktu berapa datanya di hapus
 
 
+## Rebalance
+- proses membagi traffic dari partisi ke consumer ke app baru, tetapi jika ada app baru yang nyala/mati, proses nya akan berhenti sejenak sekitar 40 detik an dan rebelance ke app consumer yang tersedia
+- rekomendasi kalo partisi ada 3 ya siapin juga cosumer nya 3 agar stabil terus
+
 
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
