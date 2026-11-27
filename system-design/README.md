@@ -97,7 +97,13 @@
 - kafka di buat oleh linkedin
 - kafka sanggup memproses 2.000.000 write per second / 3 machine/server
 - contoh kasus data 2.000.000 untuk data analitik user atau membaca behaviour user
-- 
+
+## Message Size
+- message kafka rekomendasi ukuran kecil, defautnya 1mb lebih dari 1mb akan di tolak
+- untuk upload file ga cocok
+- kafka di design untuk kirim message kecil kecil, contoh mengirim data : json, text, xml baru cocok
+- kalo mau di akalin kirim file gede pake message broker lain atau file nya kirim ke cloud lalu kafka hanya mengirim lokasi/path/url file tersebut ke app lain
+- app consumer bisa consume message lebih dari 1 message bahkan sampai 50 message
 
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
