@@ -133,6 +133,13 @@
 - rekomendasi kalo partisi ada 3 ya siapin juga cosumer nya 3 agar stabil terus
 
 
+## Offset
+- setiap consumer memiliki offset untuk membaca data, dan offset nempel di setiap consumer & partisi
+- consumer sekali consume tidak 1 per satu melainkan ambil 10 data lalu proses 1 per satu
+- setelah offset ada proses commit untuk menyatakan consumer sudah offset data ke berapa
+- tujuan nya jika ada rebalance consumer a beda partisi lagi saat menerima data, consumer tidak mulai dari offset 0 melainkan melanjutkan offset yang sudah di commit/seterusnya
+- senbenarnya data nya tidak hilang melainkan cuma menggeser offset saja, itu cara kerja kafka
+
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
 
