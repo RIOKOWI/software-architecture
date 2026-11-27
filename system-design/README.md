@@ -93,6 +93,12 @@
 - dan jika ingin menambha server tambahnya ganjil jangan genap
 - dan jika ada server baru kafka otomatis menambah server tersebut ke cluster yang sudah ada tanpa update configurasi lagi
 
+## Fast
+- kafka di buat oleh linkedin
+- kafka sanggup memproses 2.000.000 write per second / 3 machine/server
+- contoh kasus data 2.000.000 untuk data analitik user atau membaca behaviour user
+- 
+
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
 
