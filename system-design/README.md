@@ -140,6 +140,13 @@
 - tujuan nya jika ada rebalance consumer a beda partisi lagi saat menerima data, consumer tidak mulai dari offset 0 melainkan melanjutkan offset yang sudah di commit/seterusnya
 - senbenarnya data nya tidak hilang melainkan cuma menggeser offset saja, itu cara kerja kafka
 
+## Cosnumer Group
+- di kafka 2 consumer yang sama bisa di grouping
+- isi dari grouping sesuaikan dengan jumlah partisi jangan kelebihan
+- offset nya sekarang bukan lagi per consumer tetapi per group nya
+
+
+
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
 
