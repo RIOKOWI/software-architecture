@@ -111,6 +111,12 @@
 - kalo kurang kecepata consume app nya, mau ga mau harus nambah partisi jika ke 3 partisi sudah di consume oleh 3 app
 - semakin banyak partisi, penggunaan memori akan semakin besar dan antar partisi harus saling koordinasi/sinkronisasi
 
+## Sequential Guarantee
+- jika ada topik yang di store, app consumer akan consume secara sequential/berurut(FIFO)
+- kalo stuck di tengah tengah ya error
+- kalo di rabbitmq tidak ada sequential guarantee
+- pastiin data nya di satu partisi yang sama, kalo bercecaran di partisi yang berbeda kafka tidak akan menjamin sequential guarantee
+
 
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
