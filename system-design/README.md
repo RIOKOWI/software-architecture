@@ -105,6 +105,13 @@
 - kalo mau di akalin kirim file gede pake message broker lain atau file nya kirim ke cloud lalu kafka hanya mengirim lokasi/path/url file tersebut ke app lain
 - app consumer bisa consume message lebih dari 1 message bahkan sampai 50 message
 
+## Partition
+- fungsi partisi agar tidak bottleneck, jadi jika ada file 30 gb dan 3 partisi, 1 file tersebut akan di pecah masing masing 10 gb ke 3 partisi
+- 1 partisi hanya bisa di consume oleh 1 node/server app saja
+- kalo kurang kecepata consume app nya, mau ga mau harus nambah partisi jika ke 3 partisi sudah di consume oleh 3 app
+- semakin banyak partisi, penggunaan memori akan semakin besar dan antar partisi harus saling koordinasi/sinkronisasi
+
+
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
 
