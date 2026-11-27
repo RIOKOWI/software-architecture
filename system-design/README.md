@@ -85,3 +85,18 @@
 [https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3](https://www.youtube.com/watch?v=Tt2bHtIChoo&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=3)
 
 ---
+
+# BEFORE USING KAFKA
+## Scalability
+- orang orang menggunakan kafka karna scalability, gimana kalo traffic nya naik data nya tambah besar dan terus bertambah
+- setup awal minimal 3 server, emang agak mahal investasi awal
+- dan jika ingin menambha server tambahnya ganjil jangan genap
+- dan jika ada server baru kafka otomatis menambah server tersebut ke cluster yang sudah ada tanpa update configurasi lagi
+
+- contoh gambar :
+[system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
+
+## SOURCE 
+[https://www.youtube.com/watch?v=ms6ltwRC1sE&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=7](https://www.youtube.com/watch?v=ms6ltwRC1sE&list=PL-CtdCApEFH8Kj1lGRLPJbAsVYIDwe1e_&index=7)
+
+---
