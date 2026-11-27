@@ -121,6 +121,13 @@
 - kafka mengirim semua data dalam bentuk file berupa log file/.log otomatis tidak akan hilang
 - consumer baca data bukan narik data sehingga datanya masih tetap ada
 
+## Retention
+- ketika kita memasukan data ke kafkan terus, lama lama data nya akan penuh
+- retention = kapan data harus di hapus
+- ada 2 jeni retention di kafka : waktu & ukuran
+- kalo data sudah sampe ukuran/waktu berapa datanya di hapus
+
+
 
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
