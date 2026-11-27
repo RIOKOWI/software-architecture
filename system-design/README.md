@@ -117,6 +117,10 @@
 - kalo di rabbitmq tidak ada sequential guarantee
 - pastiin data nya di satu partisi yang sama, kalo bercecaran di partisi yang berbeda kafka tidak akan menjamin sequential guarantee
 
+## Persistance
+- kafka mengirim semua data dalam bentuk file berupa log file/.log otomatis tidak akan hilang
+- consumer baca data bukan narik data sehingga datanya masih tetap ada
+
 
 - contoh gambar :
 [system-design\B4-USE-KAFKA.excalidraw.png](system-design\B4-USE-KAFKA.excalidraw.png)
